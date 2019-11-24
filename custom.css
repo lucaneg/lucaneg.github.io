@@ -1,0 +1,23 @@
+.contactList {
+	list-style: none;
+	height: auto;
+	background: inherit;
+	border: none;
+	width: auto;
+}
+
+.contactList li {
+	float: none;
+	width: auto;
+	border-right: none;
+	height: auto;
+}
+
+.contactList li a {
+	display: inline;
+}
+
+.contactList li i {
+	margin-right: 10px;
+	width: 14px;
+}
