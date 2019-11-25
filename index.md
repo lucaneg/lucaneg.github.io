@@ -13,8 +13,12 @@ CV [here](cv.pdf)
 
 ## <a name="publications"></a>PUBLICATIONS
 
-
 ### 2018
 * `[NF18]` L. Negrini and P. Ferrara, "SARL: Framework Modeling for Static Analysis", in Proceedings of the 9th Workshop on Tools for Automatic Program Analysis (TAPAS2018), Freiburg im Breisgau, Germany, August 28, 2018 [`[PDF]`](papers/TAPAS18.pdf)
 
-## <a name="hobbies"></a>HOBBIES
+## <a name="talks"></a>TALKS
+
+### 2018
+* August, 28 - SARL: Framework Modeling for Static Analysis, TAPAS 2018, Freiburg im Breisgau, Germany
+
+## <a name="myself"></a>ABOUT MYSELF
