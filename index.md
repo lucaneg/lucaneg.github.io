@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <a name="intro"></a>
 I am currently a Java and C# developer at [JuliaSoft](https://juliasoft.com/), where we develop the Julia static analyzer. 
 My work at JuliaSoft goes beyond the simple software development: I am also part of the Scientific LAB, whose main focus is to bring the theoretical 
