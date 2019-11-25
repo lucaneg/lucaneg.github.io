@@ -9,10 +9,11 @@ Every command should be executed from the **git bash**.
 * Install gems: **bundle install**
 ** If some gem fails to install, use this: **gem install gem_name -v 'version' --source 'https://rubygems.org/'**
 * Create site: **bundle exec jekyll _3.3.0_ new . --force**
-** Revert all changes made to *_config.yml* and *index.md*
+** Revert all changes made to *_config.yml* and *index.md* and other staged files
 * Change the theme in Gemfile
 ** Find a line similar to this: **gem "minima", "~> 2.0"**
 ** Replace with this: **gem "jekyll-theme-minimal", "~> 0.1.1"**
+** Execute **bundle install**
 * Execute Jekyll: **bundle exec jekyll serve**
 ** If the port is in use, add **--port port_number**
 
