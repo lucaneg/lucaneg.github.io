@@ -1,4 +1,4 @@
-.contactList {
+.headerList {
 	list-style: none;
 	height: auto;
 	background: inherit;
@@ -6,18 +6,18 @@
 	width: auto;
 }
 
-.contactList li {
+.headerList li {
 	float: none;
 	width: auto;
 	border-right: none;
 	height: auto;
 }
 
-.contactList li a {
+.headerList li a {
 	display: inline;
 }
 
-.contactList li i {
+.headerList li i {
 	margin-right: 10px;
 	width: 14px;
 }
@@ -46,4 +46,9 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+#contactPhoto {
+	height: 250px;
+	margin-bottom: 20px;
 }

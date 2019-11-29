@@ -25,17 +25,17 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+			<img src="{{site.logo | relative_url}}" alt="Logo" id="contactPhoto"/>
         {% endif %}
 
-        <ul class="contactList">
+        <ul class="headerList">
 			<li><i class="fas fa-envelope"></i><a href="mailto:{{ site.mail-work }}">E-mail</a></li>
 			<li><i class="fab fa-linkedin"/></i><a href="{{ site.linkedin }}">Linkedin</a></li>
 			<li><i class="fab fa-researchgate"></i><a href="{{ site.research-gate }}">Research Gate</a></li>
 			<li><i class="fab fa-google"></i><a href="{{ site.scholar }}">Google Scholar</a></li>
 		</ul>
 		
-		<ul class="contactList">
+		<ul class="headerList">
 			<li><a href="#cv">Short CV</a></li>
 			<li><a href="#publications">Pubblications</a></li>
 			<li><a href="#talks">Talks</a></li>
