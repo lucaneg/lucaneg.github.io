@@ -22,7 +22,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        <h1>{{ site.title }}</h1>
         
         {% if site.logo %}
 			<img src="{{site.logo | relative_url}}" alt="Logo" id="contactPhoto"/>
@@ -39,6 +39,7 @@
 		
 		<ul class="headerList">
 			<li><i class="fas fa-clipboard-list"></i><a href="#cv">Short CV</a></li>
+			<li><i class="fas fa-project-diagram"></i><a href="#projects">Projects</a></li>
 			<li><i class="fas fa-book"></i><a href="#publications">Pubblications</a></li>
 			<li><i class="fas fa-chalkboard-teacher"></i><a href="#talks">Talks</a></li>
 			<li><i class="fas fa-address-card"></i><a href="#myself">About Myself</a></li>
