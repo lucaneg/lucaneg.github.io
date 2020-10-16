@@ -5,7 +5,9 @@ Every command should be executed from the **git bash**.
 * Download ruby from [here](https://rubyinstaller.org/downloads/)
 * Install bundler: **gem install bundler**
 * Install jekyll: **gem install jekyll**
-* Create Gemfile: **echo "source 'https://rubygems.org'\ngem 'github-pages', group: :jekyll_plugins" > Gemfile**
+* Create Gemfile: 
+    * **echo "source 'https://rubygems.org'" > Gemfile**
+    * **echo "gem 'github-pages', group: :jekyll_plugins" >> Gemfile**
 * Install gems: **bundle install**
     * If some gem fails to install, use this: **gem install gem_name -v 'version' --source 'https://rubygems.org/'**
 * Create site: **bundle exec jekyll \_3.3.0\_ new . --force**
