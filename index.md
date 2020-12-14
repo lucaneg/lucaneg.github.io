@@ -41,9 +41,8 @@ LiSA is distributed under the MIT license, and is available on [GitHub](https://
 	<td></td>
   </tr>
   <tr>
-    <td valign="top"><b>FN20</b><br><i>to appear</i></td>
-    <td>P. Ferrara, L. Negrini, <i>SARL: OO Framework Specification for Static Analysis</i>, in Proceedings of the 12th Working Conference on Verified Software: Theories, 
-	Tools, and Experiments (VSTTE 2020)<br>Virtual conference, July 20-21, 2020</td>
+    <td valign="top"><b><a href="https://link.springer.com/chapter/10.1007/978-3-030-63618-0_1">FN20</a></b></td>
+    <td>P. Ferrara, L. Negrini, <i>SARL: OO Framework Specification for Static Analysis</i>, in Software verification. Springer, Cham, 2020. PP. 3-20.<br>VSTTE 2020, Virtual conference, July 20-21, 2020</td>
   </tr>
   <tr>
 	<td><b>2018</b></td>
@@ -51,8 +50,8 @@ LiSA is distributed under the MIT license, and is available on [GitHub](https://
   </tr>
   <tr>
     <td valign="top"><b><a href="https://staticanalysis.org/tapas2018/abstracts/TAPAS_2018_Negrini_Ferrara.pdf">NF18</a></b></td>
-    <td>L. Negrini, P. Ferrara, <i>SARL: Framework Modeling for Static Analysis</i>, in Proceedings of the 9th Workshop on Tools for Automatic Program Analysis (TAPAS2018)<br>
-	Freiburg im Breisgau, Germany, August 28, 2018</td>
+    <td>L. Negrini, P. Ferrara, <i>SARL: Framework Modeling for Static Analysis</i>, in Proceedings of the 9th Workshop on Tools for Automatic Program Analysis (TAPAS2018).<br>
+	TAPAS 2018, Freiburg im Breisgau, Germany, August 28, 2018</td>
   </tr>
 </table>
 
