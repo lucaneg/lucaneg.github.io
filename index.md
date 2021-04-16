@@ -37,6 +37,14 @@ LiSA is distributed under the MIT license, and is available on [GitHub](https://
 
 <table>
   <tr>
+	<td><b>2021</b></td>
+	<td></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="https://link.springer.com/chapter/10.1007/978-3-030-67067-2_13">NAFC21</a></b></td>
+    <td>L.Negrini, V. Arceri, P. Ferrara, A. Cortesi, <i>Twinning Automata and Regular Expressions for String Static Analysis</i>, in Proceedings of the 22nd International Conference on Verification, Model Checking, and Abstract Interpretation.<br>VMCAI 2021, Online, January 17-22, 2021</td>
+  </tr>
+  <tr>
 	<td><b>2020</b></td>
 	<td></td>
   </tr>
@@ -58,6 +66,14 @@ LiSA is distributed under the MIT license, and is available on [GitHub](https://
 ## <a name="talks"></a>TALKS
 
 <table>
+  <tr>
+	<td><b>2021</b></td>
+	<td></td>
+  </tr>
+  <tr>
+    <td>January 18</td>
+    <td>Twinning Automata and Regular Expressions for String Static Analysis, VMCAI 2021, Virtual conference</td>
+  </tr>
   <tr>
 	<td><b>2020</b></td>
 	<td></td>
