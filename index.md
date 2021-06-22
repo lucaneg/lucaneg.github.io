@@ -41,8 +41,12 @@ LiSA is distributed under the MIT license, and is available on [GitHub](https://
 	<td></td>
   </tr>
   <tr>
+    <td valign="top"><b><a href="https://dl.acm.org/doi/10.1145/3460946.3464316">FNAC21</a></b></td>
+    <td>P. Ferrara, L. Negrini, V. Arceri, A. Cortesi, <i>Static analysis for dummies: experiencing LiSA</i>, in Proceedings of the 10th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis.<br>SOAP 2021, Online, June 22-23, 2021</td>
+  </tr>
+  <tr>
     <td valign="top"><b><a href="https://link.springer.com/chapter/10.1007/978-3-030-67067-2_13">NAFC21</a></b></td>
-    <td>L.Negrini, V. Arceri, P. Ferrara, A. Cortesi, <i>Twinning Automata and Regular Expressions for String Static Analysis</i>, in Proceedings of the 22nd International Conference on Verification, Model Checking, and Abstract Interpretation.<br>VMCAI 2021, Online, January 17-22, 2021</td>
+    <td>L. Negrini, V. Arceri, P. Ferrara, A. Cortesi, <i>Twinning Automata and Regular Expressions for String Static Analysis</i>, in Proceedings of the 22nd International Conference on Verification, Model Checking, and Abstract Interpretation.<br>VMCAI 2021, Online, January 17-22, 2021</td>
   </tr>
   <tr>
 	<td><b>2020</b></td>
