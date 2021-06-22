@@ -14,7 +14,7 @@ impact on the Static Analysis market.
 I started studying computer science in high school, continuing with both Bechelor's and Master's degree at the University of Verona. I got in touch with JuliaSoft during my 
 Master's thesis, and that was the place where I fell for Abstract Interpretation. I joined JuliaSoft as a developer of the Julia static analyzer in April 2018. 
 
-I also joined the Ca' Foscari University of Venice as a PhD student in Computer Science in October 2019, focusing on Static Analysis for the IoT ecosystem.
+I also joined the Ca' Foscari University of Venice as a PhD student in Computer Science in October 2019, focusing on Multi-language Static Analysis.
 
 You can find my full CV [here](cv.pdf).
 
