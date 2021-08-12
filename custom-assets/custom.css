@@ -4,6 +4,7 @@
 	background: inherit;
 	border: none;
 	width: auto;
+	padding: 0;
 }
 
 .headerList li {
@@ -15,6 +16,12 @@
 
 .headerList li a {
 	display: inline;
+	line-height: 1;
+	font-size: 11px;
+	color: #676767;
+	text-align: center;
+	padding-top: 6px;
+	height: 34px;
 }
 
 .headerList li i {
