@@ -127,6 +127,10 @@ header {
     margin: 0 auto;
     width: 1000px;
   }
+  
+  @media (max-width: 720px) {
+	display: block;
+  }
 }
 
 ul.downloads {
@@ -304,6 +308,11 @@ html {
 		margin-bottom: 20px;
 		margin-right: 50px;
 	}
+	
+	@media (max-width: 720px) {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
 }
 
 .links {
@@ -385,7 +394,10 @@ html {
 }
 
 .head-menu-visible #headmenu {
-	display: block;
+	display: flex;
+	@media (max-width: 720px) {
+		display: block;
+	}
 }
 
 .head-menu-item {
@@ -402,7 +414,7 @@ html {
 	} 
 	
 	@media (max-width: 720px) {
-		padding: .25rem 0rem;
+		padding: 0.5rem 2rem;
 	}
 }
 
