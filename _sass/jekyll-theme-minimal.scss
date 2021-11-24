@@ -351,6 +351,7 @@ html {
 	  display: none;
 	}
 }	
+
 .head-menu-wrapper-internal {
 	width: 1000px;
 	margin: 0 auto;
@@ -407,4 +408,19 @@ html {
 	a:hover, a:active {
 		color: #2B78C1;
 	} 
+}
+
+/* this is the <topic> tag used with publications and talks */
+topic { 
+    border: 1px #2B78C1 solid;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+venue {
+	font-size: 0.9rem;
+}
+
+.fa-ul > li {
+	margin-top: 20px;
 }
