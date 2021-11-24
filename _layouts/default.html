@@ -13,28 +13,46 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     
-    <link rel="icon" type="image/jpg" href="photo_small.jpg">
-	<link rel="stylesheet" href="custom-assets/custom.css">
-	<script src="custom-assets/custom.js"></script>
-	<script src="https://kit.fontawesome.com/954504fcb3.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="{{ site.baseurl }}/icon.png">
 	
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/academicons.min.css"/>
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/all.css"> 
+	
+	<script type="text/javascript">
+	function openNav(id) {
+	  if (document.getElementById(id).style.width != "0px" && document.getElementById(id).style.width != 0)
+		closeNav(id);
+	  else
+		document.getElementById(id).style.width = "400px";
+	}
+
+	function closeNav(id) {
+	  document.getElementById(id).style.width = "0";
+	}
+	</script>
   </head>
   <body>
+    {% include toggle-menu.html %}
+	{% include simple-menu.html %}
     <div class="wrapper">
-      <header>
-        <h1>{{ site.title }}</h1>
-        
+      <header>        
         {% if site.logo %}
+		<div id="contactPhotoWrapper">
 			<img src="{{site.logo | relative_url}}" alt="Logo" id="contactPhoto"/>
+		</div>
         {% endif %}
+
+        <h1>{{ site.title }}</h1>
 		
-		<ul class="headerList">
-			<li><i class="fas fa-clipboard-list"></i><a href="#cv">Short CV</a></li>
-			<li><i class="fas fa-project-diagram"></i><a href="#projects">Projects</a></li>
-			<li><i class="fas fa-book"></i><a href="#publications">Publications</a></li>
-			<li><i class="fas fa-chalkboard-teacher"></i><a href="#talks">Talks</a></li>
-			<li><i class="fas fa-address-card"></i><a href="#myself">About Myself</a></li>
-			<li><i class="fas fa-id-card-alt"></i><a href="https://linktr.ee/lucaneg">Contacts and Profiles</a></li>
+		<ul class="links">
+			<li><a href="mailto:luca.negrini@unive.it"><i class="fas fa-envelope big-icon"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/lucaneg/"><i class="fab fa-linkedin big-icon"></i></a></li>
+			<li><a href="https://github.com/lucaneg"><i class="fab fa-github big-icon"></i></a></li>
+			<li><a href="https://orcid.org/0000-0001-9930-8854"><i class="ai ai-orcid big-icon"></i></a></li>
+			<li><a href="https://www.scopus.com/authid/detail.uri?authorId=57219763637"><i class="ai ai-scopus big-icon"></i></a></li>
+			<li><a href="https://dblp.org/pid/266/7746.html"><i class="ai ai-dblp big-icon"></i></a></li>
+			<li><a href="https://scholar.google.com/citations?user=zGO9bhkAAAAJ"><i class="ai ai-google-scholar big-icon"></i></a></li>
+			<li><a href="https://www.researchgate.net/profile/Luca-Negrini"><i class="ai ai-researchgate big-icon"></i></a></li>
 		</ul>
       </header>
 	  
@@ -42,9 +60,10 @@
 		
       {{ content }}
 
-		<button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
       </section>
       <footer>
+		<p><small>&copy; {{ 'now' | date: "%Y" }} Luca Negrini<br/>
+        Hosted on GitHub Pages &mdash; Original theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

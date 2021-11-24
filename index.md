@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## <a name="about"></a>HI, I'M LUCA!
+
 I am currently a Java and C# developer at [Corvallis](http://www.corvallis.it/), where we develop the Julia static analyzer. My work at Corvallis goes beyond the simple software development: I am also part of the Scientific LAB, whose main focus is to bring the theoretical resesarch on Static analysis in contact with the industrial ecosystem. This led to a vast number of publications and continues to bring contributions to the scientific community.
 
 [Recently](https://news.grammatech.com/grammatech-acquires-juliasoft), Julia has become part of [CodeSonar](https://www.grammatech.com/codesonar-cc), enabling a wider impact on the Static Analysis market.
@@ -91,16 +93,3 @@ Tarsis is a new abstract domain for string values based on finite state automata
   </tr>
 </table>
 
-## <a name="myself"></a>ABOUT MYSELF
-
-### Volleyball
-
-I started playing volleyball when I was 14, and it is one of the best choices that I made in my entire life. 
-
-### Music
-
-I used to be a self-taught guitar player. I really enjoyed playing acoustic songs, and I hope to get back to that sooner or later.
-
-### Astrophysics and Astronomy
-
-This is my newest interest, born mostly from growing curiosity after watching tons of youtube videos. I just can't get enough of reading and watching stuff!
