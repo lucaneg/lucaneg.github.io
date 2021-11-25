@@ -36,15 +36,17 @@
   <body>
 	{% include simple-menu.html %}
     <div class="wrapper">
-      <header>        
-        {% if site.logo %}
+      <header>
 		<div id="contactPhotoWrapper">
 			<img src="{{site.logo | relative_url}}" alt="Logo" id="contactPhoto"/>
 		</div>
-        {% endif %}
 
 		<div class="header-content">
 			<h1>{{ site.title }}</h1>
+		
+			<div class="location">
+				<a href="https://corvallis.it/">Corvallis Srl</a> | <a href="https://www.unive.it/">Ca' Foscari</a> | <a href="https://ssv.dais.unive.it/">SSV</a>
+			</div>
 			
 			<ul class="links">
 				<li><a href="mailto:{{ site.mail-work }}"><i class="fas fa-envelope big-icon"></i></a></li>
