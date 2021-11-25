@@ -315,6 +315,14 @@ html {
 	}
 }
 
+.backlink {
+	display: none;
+	
+	@media (max-width: 720px) {
+	  display: inline-block;
+	}
+}
+
 .location {
 	margin-top: -10px;
 	margin-bottom: 20px;
