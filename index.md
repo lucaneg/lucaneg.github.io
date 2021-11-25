@@ -4,9 +4,11 @@ layout: default
 
 ## Hi, I'm Luca!
 
-I am currently a Java and C# developer at [Corvallis](http://www.corvallis.it/), where we develop the Julia static analyzer. My work at Corvallis goes beyond the simple software development: I am also part of the Scientific LAB, whose main focus is to bring the theoretical resesarch on Static analysis in contact with the industrial ecosystem. This led to a vast number of publications and continues to bring contributions to the scientific community.
+I am currently a Java and C# developer at [Corvallis](http://www.corvallis.it/), where the Julia static analyzer was developed recently. My work at Corvallis goes beyond the simple software development: I am also part of the Scientific LAB, whose main focus is to bring the theoretical resesarch on Static analysis in contact with the industrial ecosystem. This led to a vast number of publications and continues to bring contributions to the scientific community. [Recently](https://news.grammatech.com/grammatech-acquires-juliasoft), Julia has become part of [CodeSonar](https://www.grammatech.com/codesonar-cc), enabling a wider impact on the Static Analysis market.
 
-[Recently](https://news.grammatech.com/grammatech-acquires-juliasoft), Julia has become part of [CodeSonar](https://www.grammatech.com/codesonar-cc), enabling a wider impact on the Static Analysis market.
+I'm also part of the [Software and System Verification (SSV)](https://ssv.dais.unive.it/) group at Ca' Foscari University of Venice, mainly focusing on static analysis and its applications.
+
+<span class="subsect">Interests:</span> Static Program Analysis, Program Verification, Abstract Interpretation.
 
 ## Short CV
 
