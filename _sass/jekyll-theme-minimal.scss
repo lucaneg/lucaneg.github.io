@@ -428,6 +428,22 @@ html {
 	} 
 }
 
+pre.highlight > button {
+  opacity: 0;
+  float: right;
+  width: 30px;
+  height: 30px;
+}
+
+pre.highlight:hover > button {
+  opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+  opacity: 1;
+}
+
 /* this is the <topic> tag used with publications and talks */
 topic { 
     border: 1px #2B78C1 solid;

@@ -19,21 +19,35 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/all.css"> 
 	
 	<script type="text/javascript">
-	function openNav(id) {
-	  if (document.getElementById(id).style.width != "0px" && document.getElementById(id).style.width != 0)
-		closeNav(id);
-	  else
-		document.getElementById(id).style.width = "400px";
-	}
+		function copyButtons() {
+			var codeBlocks = document.querySelectorAll('pre.highlight');
 
-	function closeNav(id) {
-	  document.getElementById(id).style.width = "0";
-	}
+			codeBlocks.forEach(function (codeBlock) {
+				var copyButton = document.createElement('button');
+				copyButton.type = 'button';
+				copyButton.ariaLabel = 'Copy code to clipboard';
+				copyButton.innerHTML = '<i class="far fa-copy"></i>';
+
+				codeBlock.prepend(copyButton);
+
+				copyButton.addEventListener('click', function () {
+					var code = codeBlock.querySelector('code').innerText.trim();
+					window.navigator.clipboard.writeText(code);
+
+					copyButton.innerHTML = '<i class="far fa-check-circle"></i>';
+					var fourSeconds = 2000;
+
+					setTimeout(function () {
+					  copyButton.innerHTML = '<i class="far fa-copy"></i>';
+					}, fourSeconds);
+				});
+			});
+		}
 	</script>
 	
 	<title>{{ site.title }}</title>
   </head>
-  <body>
+  <body onload="copyButtons()">
 	{% include simple-menu.html %}
     <div class="wrapper">
       <header>
