@@ -324,7 +324,7 @@ html {
 	display: none;
 	
 	@media (max-width: 720px) {
-	  display: inline-block;
+	  display: block;
 	}
 }
 
@@ -428,20 +428,31 @@ html {
 	} 
 }
 
-pre.highlight > button {
-  opacity: 0;
-  float: right;
-  width: 30px;
-  height: 30px;
+div.highlight {
+	position: relative;
+	
+	> button {
+		opacity: 0;    
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		z-index: 500;
+		width: 30px;
+		height: 30px;
+  
+		@media (max-width: 720px) {
+			display: none;
+		}
+	}
 }
 
-pre.highlight:hover > button {
-  opacity: 1;
+div.highlight:hover > button {
+	opacity: 1;
 }
 
-pre.highlight > button:active,
-pre.highlight > button:focus {
-  opacity: 1;
+div.highlight > button:active,
+div.highlight > button:focus {
+	opacity: 1;
 }
 
 /* this is the <topic> tag used with publications and talks */
