@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<venue>{{ page.description }}</venue><br/>
+
+<small>
+{% assign langs = page.languages | split: " " %}
+{% for lang in langs %}
+	<span class="language-dot {{ lang | downcase }}-dot"></span> {{ lang }}&nbsp;
+{% endfor %}
+</small><br/>
+
+<br/>
+{{content}}
+
+
+
+
+

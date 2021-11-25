@@ -18,17 +18,34 @@ You can find my full CV [here](cv.pdf).
 
 ## Projects
 
-### LiSA
+{% assign projectlist = "" | split: ',' %}
+{% for p in site.pages %}
+	{% if p.project == true and p.pinned == true %}
+		{% assign projectlist = projectlist | push: p %}
+	{% endif %}
+{% endfor %}
+{% for p in site.pages %}
+	{% if p.project == true and p.pinned != true and projectlist.size < 4 %}
+		{% assign projectlist = projectlist | push: p %}
+	{% endif %}
+{% endfor %}
+<div class="project-box-wrapper">
+{% for p in projectlist %}
+	<a href="{{ p.url }}" class="project-box">
+		<i class="fas fa-laptop-code"></i> <span>{{ p.title }}</span><br/>
+		<venue>{{ p.description }}</venue><br/>
+		{% assign langs = p.languages | split: " " %}
+		<small>
+		{% for lang in langs %}
+			<span class="language-dot {{ lang | downcase }}-dot"></span> {{ lang }}&nbsp;
+		{% endfor %}
+		</small><br/>
+	</a>
+{% endfor %}
+</div>
+<p/>
 
-As part of my PhD research project, I started the development of LiSA, together with the [Software and System Verification group](https://ssv.dais.unive.it/) @ Ca’ Foscari University of Venice, Italy. LiSA (Library for Static Analysis) eases the creation and implementation of static analyzers based on the Abstract Interpretation theory. LiSA provides an analysis engine that works on a generic and extensible control flow graph representation of the program to analyze. Abstract interpreters in LiSA are built for analyzing such representation, providing a unique analysis infrastructure for all the analyzers that will rely on it. 
-
-Building an analyzer upon LiSA boils down to writing a parser for the language that one aims to analyze, translating the source code or the compiled code towardsthe control flow graph representation of LiSA. Then, simple checks iterating over the results provided by the semantic analyses of LiSA can be easily defined to translate semantic information into warnings that can be of value for the final user. 
-
-LiSA is distributed under the MIT license, and is available on [GitHub](https://github.com/UniVE-SSV/lisa).
-
-### Tarsis
-
-Tarsis is a new abstract domain for string values based on finite state automata. Standard finite state automata abstract domain has been shown to provide precise abstractions of string values when all the components of such strings are known, but with high computational cost. Instead of considering standard finite automata built over an alphabet of single characters, Tarsis considers automata that are built over an alphabet of strings, comprising a special value to represent statically unknown strings. Tarsis is maintained by the [Software and System Verification group](https://ssv.dais.unive.it/) @ Ca’ Foscari University of Venice, Italy, and it is available on [GitHub](https://github.com/UniVE-SSV/tarsis).
+[More projects >>]({{ site.baseurl }}/projects/)
 
 ## Publications
 
