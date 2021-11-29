@@ -4,17 +4,9 @@ layout: secondary
 
 ## All projects
 
-{% assign projectlist = "" | split: ',' %}
-{% for p in site.pages %}
-	{% if p.project == true and p.pinned == true %}
-		{% assign projectlist = projectlist | push: p %}
-	{% endif %}
-{% endfor %}
-{% for p in site.pages %}
-	{% if p.project == true and p.pinned != true %}
-		{% assign projectlist = projectlist | push: p %}
-	{% endif %}
-{% endfor %}
+{% assign pinned_prjs = site.pages | where: "project", true | where: "pinned", true %}
+{% assign unpinned_prjs = site.pages | where: "project", true | where: "pinned", false %}
+{% assign projectlist = pinned_prjs | concat: unpinned_prjs %}
 <div class="project-item-wrapper">
 {% for p in projectlist %}
 	<div class="project-item">

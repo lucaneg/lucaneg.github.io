@@ -4,10 +4,8 @@ layout: secondary
 
 ## All publications
 
-{% for category in site.categories %}
-	{% if category[0] == "publications" %}
 <ul class="fa-ul talk-list">
-	{% for post in category[1] %}
+{% for post in site.categories.publications %}
 	<li>
 		<span class="fa-li"><i class="fas fa-book-open"></i></span>
 		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
@@ -15,7 +13,5 @@ layout: secondary
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}</small><br/>
 	</li>
-	{% endfor %}
-</ul>
-	{% endif %}
 {% endfor %}
+</ul>

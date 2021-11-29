@@ -20,19 +20,19 @@ You can find my full CV [here](cv.pdf).
 
 ## Projects
 
-{% assign projectlist = "" | split: ',' %}
-{% for p in site.pages %}
-	{% if p.project == true and p.pinned == true %}
-		{% assign projectlist = projectlist | push: p %}
-	{% endif %}
-{% endfor %}
-{% for p in site.pages %}
-	{% if p.project == true and p.pinned != true and projectlist.size < 4 %}
-		{% assign projectlist = projectlist | push: p %}
-	{% endif %}
-{% endfor %}
+{% assign pinned_prjs = site.pages | where: "project", true | where: "pinned", true %}
+{% assign unpinned_prjs = site.pages | where: "project", true | where: "pinned", false %}
+{% assign projectlist = pinned_prjs | concat: unpinned_prjs %}
+{% if pinned_prjs.size > 4 %}
+	{% assign limit = pinned_prjs.size %}
+{% else %}
+	{% assign limit = 4 %}
+{% endif %}
+
+{{ limit }}
+
 <div class="project-box-wrapper">
-{% for p in projectlist %}
+{% for p in projectlist limit: limit %}
 	<a href="{{ p.url }}" class="project-box">
 		<i class="fas fa-laptop-code"></i> <span>{{ p.title }}</span><br/>
 		<venue>{{ p.description }}</venue><br/>
@@ -47,14 +47,14 @@ You can find my full CV [here](cv.pdf).
 </div>
 <p/>
 
-[More projects >>]({{ site.baseurl }}/projects/)
+
+{% assign prj_count = pinned_prjs.size | plus: unpinned_prjs.size %}
+[All projects ({{ prj_count }}) >>]({{ site.baseurl }}/projects/)
 
 ## Publications
 
-{% for category in site.categories %}
-	{% if category[0] == "publications" %}
 <ul class="fa-ul">
-	{% for post in category[1] limit: 2 %}
+{% for post in site.categories.publications limit: 2 %}
 	<li>
 		<span class="fa-li"><i class="fas fa-book-open"></i></span>
 		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
@@ -62,20 +62,15 @@ You can find my full CV [here](cv.pdf).
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}</small><br/>
 	</li>
-	{% endfor %}
-</ul>
-	{% endif %}
 {% endfor %}
+</ul>
 
-
-[More publications >>]({{ site.baseurl }}/publications/)
+[All publications ({{ site.categories.publications.size }}) >>]({{ site.baseurl }}/publications/)
 
 ## Talks
 
-{% for category in site.categories %}
-	{% if category[0] == "talks" %}
 <ul class="fa-ul">
-	{% for post in category[1] limit: 2 %}
+{% for post in site.categories.talks limit: 2 %}
 	<li>
 		<span class="fa-li"><i class="fas fa-calendar-alt"></i></span>
 		<a href="{{ post.url }}">{{ post.title }}</a><br/>
@@ -83,10 +78,9 @@ You can find my full CV [here](cv.pdf).
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}</small><br/>
 	</li>
-	{% endfor %}
-</ul>
-	{% endif %}
 {% endfor %}
+</ul>
 
 
-[More talks >>]({{ site.baseurl }}/talks/)
+[All talks ({{ site.categories.talks.size }}) >>]({{ site.baseurl }}/talks/)
+
