@@ -29,8 +29,6 @@ You can find my full CV [here](cv.pdf).
 	{% assign limit = 4 %}
 {% endif %}
 
-{{ limit }}
-
 <div class="project-box-wrapper">
 {% for p in projectlist limit: limit %}
 	<a href="{{ p.url }}" class="project-box">

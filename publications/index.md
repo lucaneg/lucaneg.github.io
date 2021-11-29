@@ -4,8 +4,19 @@ layout: secondary
 
 ## All publications
 
+{% assign first_publication = site.categories.publications | first %}
+{% assign year = first_publication.date | date: "%Y" %}
+
+<h3>{{ year }}</h3>
 <ul class="fa-ul talk-list">
 {% for post in site.categories.publications %}
+	{% assign cur_year = post.date | date: "%Y" %}
+	{% if cur_year != year %}
+</ul>
+		{% assign year = cur_year %} 
+<h3>{{ year }}</h3>
+<ul class="fa-ul talk-list">
+	{% endif %}
 	<li>
 		<span class="fa-li"><i class="fas fa-book-open"></i></span>
 		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
