@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 title: Luca Negrini
+descrition: Personal homepage of Luca Negrini, PhD
+author: Luca Negrini
 logo: photo_small.jpg
 
 mail-work: luca.negrini@unive.it
@@ -11,5 +13,12 @@ researcherid: https://publons.com/researcher/3259949/luca-negrini/
 scopus: https://www.scopus.com/authid/detail.uri?authorId=57219763637
 github: https://github.com/lucaneg
 dblp: https://dblp.org/pid/266/7746.html
+twitter-handle: https://twitter.com/lucaneg7
+twitter:
+  username: lucaneg7
+  card: summary
 
 exclude: [README.md]
+
+plugins:
+  - jekyll-sitemap
