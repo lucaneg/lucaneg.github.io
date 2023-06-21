@@ -2,17 +2,15 @@
 layout: secondary
 ---
 
-<small>{{ page.when }}</small><br/>
-
-<small>{{ page.kind }}</small><br/>
-
-<topic>{{ page.tags | join: "</topic> <topic>" }}</topic><br/>
+<topic>{{ page.tags | join: "</topic>&nbsp;&nbsp;<topic>" }}</topic><br/>
 
 <h1>Talk: {{ page.title }}</h1>
 
 <venue>{{ page.venue }}</venue><br/>
 
-<small>{{ page.location }}</small><br/>
+<small>{{ page.location }}, {{ page.when }}</small><br/>
+
+<small>{{ page.kind }}</small><br/>
 
 <br/>
 {{content}}

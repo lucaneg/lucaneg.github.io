@@ -19,4 +19,4 @@ LiSA is distributed under the MIT license.
 
 ### External links
 
-[GitHub repository](https://github.com/UniVE-SSV/lisa) • [Project website](https://unive-ssv.github.io/lisa/)
+[GitHub repository](https://github.com/lisa-analyzer/lisa) • [Project website](https://lisa-analyzer.github.io/)

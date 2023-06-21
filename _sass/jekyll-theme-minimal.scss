@@ -1,15 +1,28 @@
 @import "fonts";
-@import "rouge-github";
+/*@import "rouge-github";*/
 
-$body-color: #FFFFFF;
-$text-color: #727272;
-$secondary-heading-color: #494949;
-$highlight-color: #2B78C1;
-$separator-color: #CACACA;
-$code-color: #333333;
-$code-background-color: #f8f8f8;
-$navigation-bar-color: #393939;
-$social-icons-color: #676767;
+$palette-lighter: #FFFFFA;
+$palette-light: #7E9181;
+$palette-medium: #98969B;
+$palette-dark: #364156;
+$palette-darker: #212D40;
+
+$palette-lighter-variant: #F7F7F4;
+$palette-normal-text: #11151C;
+$palette-light-text: #727272;
+
+$body-color: $palette-lighter;
+$text-color: $palette-normal-text;
+$heading-color: $palette-darker;
+$highlight-color: $palette-light;
+$link-color: $palette-light-text;
+$hover-color: $palette-medium;
+$separator-color: $palette-light;
+$border-color: $palette-light;
+$code-color: $palette-normal-text;
+$code-background-color: $palette-lighter-variant;
+$navigation-bar-color: $palette-darker;
+$social-icons-color: $palette-medium;
 
 $small-screen-size: 720px;
 $medium-screen-size: 1130px;
@@ -22,7 +35,7 @@ $medium-screen-size: 1130px;
 
 body {
     background-color: $body-color;
-    padding: 100px 50px;
+    padding: 50px 50px;
     font: 1rem/1.5 montserrat, sans-serif;
     color: $text-color;
     
@@ -32,7 +45,7 @@ body {
 }
 
 h1, h2 {
-    color: $highlight-color;
+    color: $heading-color;
     font-weight: normal;
 }
 
@@ -45,20 +58,20 @@ p, ul, ol, table, pre, dl {
 }
 
 h3, h4, h5, h6 {
-    color: $secondary-heading-color;
+    color: $heading-color;
 }
 
 a, a:visited, a:link {
-    color: $highlight-color;
+    color: $link-color;
     text-decoration: none;
 }
 
 a:hover, a:focus {
-    color: $highlight-color;
+    color: $hover-color;
 }
 
 .wrapper {
-    width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -73,11 +86,11 @@ blockquote {
 code, pre {
     font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
     color: $code-color;
+    background-color: $code-background-color;
 }
 
 pre {
     padding: 8px 15px;
-    background: $code-background-color;
     border-radius: 5px;
     border: 1px solid $separator-color;
     overflow-x: auto;
@@ -95,12 +108,12 @@ th, td {
 }
 
 dt {
-    color: $secondary-heading-color;
+    color: $heading-color;
     font-weight: 700;
 }
 
 th {
-    color: $secondary-heading-color;
+    color: $heading-color;
 }
 
 img {
@@ -134,7 +147,7 @@ header {
         align-items: center;
         text-align: center;
         margin: 0 auto;
-        width: 1000px;
+        width: 1300px;
     }
     
     @media (max-width: $small-screen-size) {
@@ -143,12 +156,12 @@ header {
 }
 
 strong {
-    color: $secondary-heading-color;
+    color: $heading-color;
     font-weight: 700;
 }
 
 section {
-    width: 640px;
+    width: calc(100% - 360px);
     float: right;
     padding-bottom: 50px;
 }
@@ -310,7 +323,7 @@ html {
 }   
 
 .head-menu-wrapper-internal {
-    width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
     border-bottom: .0625rem solid $separator-color;
     
@@ -397,9 +410,12 @@ div.highlight > button:focus {
 
 /* this is the <topic> tag used with publications and talks */
 topic { 
-    border: 1px $highlight-color solid;
+    display: inline-block;
+    border: 1px $border-color solid;
     border-radius: 5px;
     padding: 0px 5px;
+    font-size: 0.9rem;
+    color: $link-color;
 }
 
 venue {
@@ -422,11 +438,11 @@ venue {
 }
 
 .project-box, .project-box:link, .project-box:visited, .project-box:active, .project-box:hover {
-    border: 1px $highlight-color solid;
+    border: 1px $border-color solid;
     border-radius: 5px;
     padding: 5px 10px;
     position: relative;
-    height: 110px; /* 10 extra for vertical padding */
+    min-height: 110px; /* 10 extra for vertical padding */
     color: $text-color;
 }
 
@@ -435,7 +451,7 @@ venue {
 }
 
 .project-box > span {
-    color: $highlight-color;
+    color: $heading-color;
 }
 
 .project-box > small {
