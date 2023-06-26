@@ -3,7 +3,7 @@ layout: publication
 kind: "Workshop paper"
 title: "MichelsonLiSA: A Static Analyzer for Tezos"
 tags: blockchain static-analysis abstract-interpretation 
-venue: "023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops) (BRAIN 2023)"
+venue: "2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops) (BRAIN 2023)"
 location: "Atlanta, GA, USA"
 when: "March 13, 2023"
 authors: "L. Olivieri, T. Jensen, L. Negrini, F. Spoto"
