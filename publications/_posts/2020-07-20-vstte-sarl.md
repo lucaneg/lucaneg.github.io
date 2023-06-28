@@ -15,13 +15,15 @@ Semantic static analysis allows sound verification of program properties, that i
 
 In this paper we introduce SARL, a domain-specific language which allows one to specify the runtime behaviors of frameworks of object-oriented programs. Such specifications can be then applied to automatically generate annotations on program components of the application to model the framework runtime environment. In addition, SARL specifications document which aspects of a framework are supported by the static analyzer and how. We adopted SARL to model WindowsForms and ASP.NET, two of the most popular .NET frameworks in an existing industrial static analyzer (Julia). We then analyzed the three most popular GitHub repositories using these frameworks, comparing the results with and without SARL. Our experimental results show that the application of SARL sensibly improved the precision and soundness of the analysis without affecting its runtime performances.
 
-#### Related content
+<div class="divtable" markdown="1"> 
 
-[Talk @ VSTTE 2020]({% link talks/_posts/2020-07-20-vstte-sarl.md %})
+| Related content | External links |
+| - 
+| [Manuscript]({{ site.baseurl }}/manuscripts/VSTTE20.pdf) | [Conference page](https://sri-csl.github.io/VSTTE20/#program) | 
+| [Talk @ VSTTE 2020]({% link talks/_posts/2020-07-20-vstte-sarl.md %}) | [IEEE link](https://link.springer.com/chapter/10.1007/978-3-030-63618-0_1) | 
 
-#### External links
+ </div>
 
-[Conference page](https://sri-csl.github.io/VSTTE20/#program) • [Springer link](https://link.springer.com/chapter/10.1007/978-3-030-63618-0_1)
 
 #### Cite as
 
