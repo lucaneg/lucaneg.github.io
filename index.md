@@ -4,19 +4,15 @@ layout: default
 
 ## Hi, I'm Luca!
 
-I am currently a Java and C# developer at [Corvallis](http://www.corvallis.it/), where the Julia static analyzer was developed recently. My work at Corvallis goes beyond the simple software development: I am also part of the Scientific LAB, whose main focus is to bring the theoretical resesarch on Static analysis in contact with the industrial ecosystem. This led to a vast number of publications and continues to bring contributions to the scientific community. [Recently](https://news.grammatech.com/grammatech-acquires-juliasoft), Julia has become part of [CodeSonar](https://www.grammatech.com/codesonar-cc), enabling a wider impact on the Static Analysis market.
+I am currently a research fellow at the Ca' Foscari University of Venice focusing on static analysis by abstract interpretation. My interest on the topic is broad, but I mainly focus on the practical aspects of multi-language static analyzers and on the analysis of robotic software.
 
-I'm also part of the [Software and System Verification (SSV)](https://ssv.dais.unive.it/) group at Ca' Foscari University of Venice, mainly focusing on static analysis and its applications.
+I started studying computer science in high school, continuing with both Bechelor's and Master's degree at the University of Verona. I got in touch with JuliaSoft (part of [Corvallis](http://www.corvallis.it/)) during my Master's thesis, and that was the place where I got interested in Abstract Interpretation. I joined JuliaSoft as a developer of the Julia static analyzer in April 2018, following its development mainly in Java and C#. I was also part of the Scientific LAB, whose main focus is to bring the theoretical resesarch on Static analysis in contact with the industrial ecosystem. This led to a vast number of publications and continues to bring contributions to the scientific community. When Julia was [integrated](https://news.grammatech.com/grammatech-acquires-juliasoft) inside [CodeSonar](https://www.grammatech.com/codesonar-cc), I kept working on the analyzer in conjunction with the GrammaTech team, bridging the two tools for a wider impact on the Static Analysis market.
 
-<span class="subsect">Interests:</span> Static Program Analysis, Program Verification, Abstract Interpretation.
-
-## Short CV
-
-I started studying computer science in high school, continuing with both Bechelor's and Master's degree at the University of Verona. I got in touch with JuliaSoft during my Master's thesis, and that was the place where I got interested in Abstract Interpretation. I joined JuliaSoft as a developer of the Julia static analyzer in April 2018. 
-
-I also joined the Ca' Foscari University of Venice as a PhD student in Computer Science in October 2019, focusing on Multi-language Static Analysis, and graduating in January 2023.
+In October 2019, I joined the Ca' Foscari University of Venice as a PhD student in Computer Science, focusing on multi-language static analysis, and graduating in January 2023. I have now joined Ca' Foscary and the [Software and System Verification (SSV)](https://ssv.dais.unive.it/) group as a research fellow.
 
 You can find my full CV [here](cv.pdf).
+
+<span class="subsect">Interests:</span> Static Program Analysis, Program Verification, Abstract Interpretation.
 
 ## Projects
 
