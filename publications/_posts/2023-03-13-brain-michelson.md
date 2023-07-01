@@ -7,6 +7,7 @@ venue: "2023 IEEE International Conference on Pervasive Computing and Communicat
 location: "Atlanta, GA, USA"
 when: "March 13, 2023"
 authors: "L. Olivieri, T. Jensen, L. Negrini, F. Spoto"
+manuscript: "yes"
 ---
 
 ### Abstract
@@ -23,7 +24,7 @@ Smart contracts are immutable code deployed in a blockchain, whose execution mod
     </thead>
     <tbody>
       <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/BRAIN23.pdf">Manuscript</a></td>
+        <td><a href="{{ site.baseurl }}/manuscripts/BRAIN23.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
         <td><a href="https://sites.google.com/view/brain-2023/workshop-program">Conference page</a></td>
       </tr>
       <tr>

@@ -7,6 +7,7 @@ venue: "22nd International Conference on Verification, Model Checking, and Abstr
 location: "Online conference"
 when: "January 17-19, 2021"
 authors: "L. Negrini, V. Arceri, P. Ferrara, A. Cortesi"
+manuscript: "yes"
 ---
 
 ### Abstract
@@ -23,7 +24,7 @@ In this paper we formalize TARSIS, a new abstract domain based on the abstract i
     </thead>
     <tbody>
       <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/VMCAI21.pdf">Manuscript</a></td>
+        <td><a href="{{ site.baseurl }}/manuscripts/VMCAI21.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
         <td><a href="https://popl21.sigplan.org/details/VMCAI-2021-papers/6/Twinning-automata-and-regular-expressions-for-string-static-analysis">Conference page</a></td>
       </tr>
       <tr>

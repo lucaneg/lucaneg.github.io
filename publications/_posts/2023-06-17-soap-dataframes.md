@@ -7,7 +7,9 @@ venue: "Proceedings of the 12th ACM SIGPLAN International Workshop on the State 
 location: "Orlando, FL, USA & online"
 when: "June 17, 2023"
 authors: "L. Negrini, G. Shabadi, C. Urban"
+manuscript: "yes"
 ---
+    
 
 ### Abstract
 
@@ -23,7 +25,7 @@ Jupyter notebooks used to pre-process and polish raw data for data science and m
     </thead>
     <tbody>
       <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/SOAP23.pdf">Manuscript</a></td>
+        <td><a href="{{ site.baseurl }}/manuscripts/SOAP23.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
         <td><a href="https://pldi23.sigplan.org/details/SOAP-2023-papers/1/Static-Analysis-of-Data-Transformations-in-Jupyter-Notebooks">Conference page</a></td>
       </tr>
       <tr>

@@ -7,6 +7,7 @@ venue: "Proceedings of the 11th ACM SIGPLAN International Workshop on the State 
 location: "San Diego, CA, USA & online"
 when: "June 14, 2022"
 authors: "L. Olivieri, F. Tagliaferro, V. Arceri, M. Ruaro, L. Negrini, A. Cortesi, P. Ferrara, F. Spoto, E. Tallin"
+manuscript: "yes"
 ---
 
 ### Abstract
@@ -23,7 +24,7 @@ Ensuring determinism is mandatory when writing blockchain software. When determi
     </thead>
     <tbody>
       <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/SOAP22.pdf">Manuscript</a></td>
+        <td><a href="{{ site.baseurl }}/manuscripts/SOAP22.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
         <td><a href="https://pldi22.sigplan.org/details/SOAP-2022-papers/4/Ensuring-Determinism-in-Blockchain-Software-with-GoLiSA-An-Industrial-Experience-Rep">Conference page</a></td>
       </tr>
       <tr>

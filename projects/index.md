@@ -17,7 +17,7 @@ layout: secondary
 		{% for lang in langs %}
 			<span class="language-dot {{ lang | downcase }}-dot"></span> {{ lang }}&nbsp;
 		{% endfor %}
-		</small><br/>
+		</small>
 	</div>
 {% endfor %}
 </div>

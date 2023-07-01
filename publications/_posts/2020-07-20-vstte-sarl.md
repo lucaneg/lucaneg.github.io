@@ -7,6 +7,7 @@ venue: "12th Working Conference on Verified Software: Theories, Tools, and Exper
 location: "Online conference"
 when: "July 20-21, 2020"
 authors: "P. Ferrara, L. Negrini"
+manuscript: "yes"
 ---
 
 ### Abstract
@@ -25,7 +26,7 @@ In this paper we introduce SARL, a domain-specific language which allows one to 
     </thead>
     <tbody>
       <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/VSTTE20.pdf">Manuscript</a></td>
+        <td><a href="{{ site.baseurl }}/manuscripts/VSTTE20.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
         <td><a href="https://sri-csl.github.io/VSTTE20/#program">Conference page</a></td>
       </tr>
       <tr>
