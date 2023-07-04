@@ -55,7 +55,7 @@ You can find my full CV [here](cv.pdf).
 		<topic>{{ post.tags | join: "</topic>&nbsp;&nbsp;<topic>" }}</topic><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}
-		{% if post.manuscript != blank %}
+		{% if post.manuscript %}
 			 • <i class="fas fa-file-pdf"></i> PDF available<br/>
 		{% endif %}
 		</small>
@@ -75,7 +75,7 @@ You can find my full CV [here](cv.pdf).
 		<topic>{{ post.tags | join: "</topic>&nbsp;&nbsp;<topic>" }}</topic><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}
-		{% if post.manuscript != blank %}
+		{% if post.manuscript %}
 			 • <i class="fas fa-file-pdf"></i> PDF available<br/>
 		{% endif %}
 		</small>
