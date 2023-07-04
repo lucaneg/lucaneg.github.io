@@ -2,6 +2,7 @@
 layout: project
 project: true
 pinned: true
+projid: lisa
 languages: Java
 title: "LiSA"
 description: "A modular easy to use Library for Static Analysis aiming at multi-language analysis"

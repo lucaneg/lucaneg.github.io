@@ -426,14 +426,17 @@ venue {
     margin-top: 20px;
 }
 
-.divtable table > thead > tr > th {
-    border-bottom: 0;
-    padding: 5px 0px;
+table.divtable {
+    table-layout: fixed;
 }
 
-.divtable table > tbody > tr > td {
+table.divtable td {
     border-bottom: 0;
-    padding: 5px 0px;
+    padding: 5px 15px;
+}
+
+table.divtable td:first-child {
+    text-align: right;
 }
 
 .project-box-wrapper {

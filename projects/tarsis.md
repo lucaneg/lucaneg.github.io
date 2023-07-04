@@ -2,6 +2,7 @@
 layout: project
 project: true
 pinned: true
+projid: tarsis
 languages: Java
 title: "Tarsis"
 description: "Implementation of the Tarsis abstract domain"

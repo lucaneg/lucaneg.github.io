@@ -7,45 +7,13 @@ venue: "2023 IEEE International Conference on Pervasive Computing and Communicat
 location: "Atlanta, GA, USA"
 when: "March 13, 2023"
 authors: "L. Olivieri, T. Jensen, L. Negrini, F. Spoto"
-manuscript: "yes"
+projects: lisa
+manuscript: "BRAIN23.pdf"
+confpage: "https://sites.google.com/view/brain-2023/workshop-program"
+publishername: "IEEE"
+publisherpage: "https://ieeexplore.ieee.org/abstract/document/10150247"
 ---
 
 ### Abstract
 
 Smart contracts are immutable code deployed in a blockchain, whose execution modifies its global state. Code im-mutability leads to immutable bugs. To prevent such bugs, static program analysis infers information about the behavior of the code, statically, before code execution and deployment. This paper introduces MichelsonLiSA, a static analyzer based on abstract interpretation for the verification of smart contracts written in the Michelson low-level language of the Tezos blockchain. It applies MichelsonLiSA to the identification of security issues arising from cross-contract invocations.
-
-<div class="divtable"> 
-  <table>
-    <thead>
-      <tr>
-        <th>Related content</th>
-        <th>External links</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/BRAIN23.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
-        <td><a href="https://sites.google.com/view/brain-2023/workshop-program">Conference page</a></td>
-      </tr>
-      <tr>
-        <td><a href="{% link projects/lisa.md %}">The LiSA project</a></td>
-        <td><a href="https://ieeexplore.ieee.org/abstract/document/10150247">IEEE link</a></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-#### Cite as
-
-```
-@inproceedings{10150247,
-  author={Olivieri, Luca and Jensen, Thomas and Negrini, Luca and Spoto, Fausto},
-  booktitle={2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)}, 
-  title={MichelsonLiSA: A Static Analyzer for Tezos}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={80-85},
-  doi={10.1109/PerComWorkshops56833.2023.10150247}
-}
-```

@@ -7,56 +7,15 @@ venue: "22nd International Conference on Verification, Model Checking, and Abstr
 location: "Online conference"
 when: "January 17-19, 2021"
 authors: "L. Negrini, V. Arceri, P. Ferrara, A. Cortesi"
-manuscript: "yes"
+projects: tarsis
+manuscript: "VMCAI21.pdf"
+relatedtalk: "2021-01-18-vmcai-tarsis.md"
+relatedtalktitle: "Talk @ VMCAI 2021"
+confpage: "https://popl21.sigplan.org/details/VMCAI-2021-papers/6/Twinning-automata-and-regular-expressions-for-string-static-analysis"
+publishername: "Springer"
+publisherpage: "https://link.springer.com/chapter/10.1007/978-3-030-67067-2_13"
 ---
 
 ### Abstract
 
 In this paper we formalize TARSIS, a new abstract domain based on the abstract interpretation theory that approximates string values through finite state automata. The main novelty of TARSIS is that it works over an alphabet of strings instead of single characters. On the one hand, such an approach requires a more complex and refined definition of the widening operator, and the abstract semantics of string operators. On the other hand, it is in position to obtain strictly more precise results than state-of-the-art approaches. We implemented a prototype of TARSIS, and we applied it to some case studies taken from some of the most popular Java libraries manipulating string values. The experimental results confirm that TARSIS is in position to obtain strictly more precise results than existing analyses.
-
-<div class="divtable"> 
-  <table>
-    <thead>
-      <tr>
-        <th>Related content</th>
-        <th>External links</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="{{ site.baseurl }}/manuscripts/VMCAI21.pdf"><i class="fas fa-file-pdf"></i> Manuscript</a></td>
-        <td><a href="https://popl21.sigplan.org/details/VMCAI-2021-papers/6/Twinning-automata-and-regular-expressions-for-string-static-analysis">Conference page</a></td>
-      </tr>
-      <tr>
-        <td><a href="{% link talks/_posts/2021-01-18-vmcai-tarsis.md %}">Talk @ VMCAI 2021</a></td>
-        <td><a href="https://link.springer.com/chapter/10.1007/978-3-030-67067-2_13">Springer link</a></td>
-      </tr>
-      <tr>
-        <td><a href="{% link projects/tarsis.md %}">The Tarsis project</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
- </div>
-
-#### Cite as
-
-```
-@InProceedings{10.1007/978-3-030-67067-2_13,
-  author="Negrini, Luca
-    and Arceri, Vincenzo
-    and Ferrara, Pietro
-    and Cortesi, Agostino",
-  editor="Henglein, Fritz
-    and Shoham, Sharon
-    and Vizel, Yakir",
-  title="Twinning Automata and Regular Expressions for String Static Analysis",
-  booktitle="Verification, Model Checking, and Abstract Interpretation",
-  year="2021",
-  publisher="Springer International Publishing",
-  address="Cham",
-  pages="267--290",
-  abstract="In this paper we formalize {\$}{\$}{\backslash}textsc {\{}Tarsis{\}}{\$}{\$}TARSIS, a new abstract domain based on the abstract interpretation theory that approximates string values through finite state automata. The main novelty of {\$}{\$}{\backslash}textsc {\{}Tarsis{\}}{\$}{\$}TARSISis that it works over an alphabet of strings instead of single characters. On the one hand, such an approach requires a more complex and refined definition of the widening operator, and the abstract semantics of string operators. On the other hand, it is in position to obtain strictly more precise results than state-of-the-art approaches. We implemented a prototype of {\$}{\$}{\backslash}textsc {\{}Tarsis{\}}{\$}{\$}TARSIS, and we applied it to some case studies taken from some of the most popular Java libraries manipulating string values. The experimental results confirm that {\$}{\$}{\backslash}textsc {\{}Tarsis{\}}{\$}{\$}TARSISis in position to obtain strictly more precise results than existing analyses.",
-  isbn="978-3-030-67067-2"
-}
-```
