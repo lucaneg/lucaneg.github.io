@@ -16,7 +16,41 @@ layout: secondary
 <br/>
 {{content}}
 
+<center>
+  <table class="divtable">
+    <tbody>
+{% if page.repo %}
+      <tr>
+      	<td><i class="fas fa-code-branch"></i> Code:</td>
+        <td><a href="{{ page.repo }}">GitHub</a></td>
+      </tr>
+{% endif %}
+{% if page.website %}
+      <tr>
+      	<td><i class="fas fa-id-card"></i> Website:</td>
+        <td><a href="{{ page.website }}">Link</a></td>
+      </tr>
+{% endif %}
+    </tbody>
+  </table>
+</center>
 
+<h3>Related publications</h3>
 
+{% assign publist = '' | split: '' %}
+{% for p in site.categories.publications %}
+	{% assign pprojects = p.projects | split: ' '  %}
+	{% if pprojects contains page.projid %}
+		<a href="{{ p.url }}"><i class="fas fa-book-open"></i> {{ p.title }}</a><br/>
+	{% endif %}	
+{% endfor %}
 
+<h3>Related talks</h3>
 
+{% assign publist = '' | split: '' %}
+{% for p in site.categories.talks %}
+	{% assign pprojects = p.projects | split: ' '  %}
+	{% if pprojects contains page.projid %}
+		<a href="{{ p.url }}"><i class="fas fa-calendar-alt"></i> {{ p.title }}</a><br/>
+	{% endif %}	
+{% endfor %}
