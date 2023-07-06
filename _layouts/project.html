@@ -16,8 +16,8 @@ layout: secondary
 <br/>
 {{content}}
 
-<center>
-  <table class="divtable">
+<div class="divtable">
+  <table>
     <tbody>
 {% if page.repo %}
       <tr>
@@ -33,9 +33,9 @@ layout: secondary
 {% endif %}
     </tbody>
   </table>
-</center>
+</div>
 
-<h3>Related publications</h3>
+<h4>Related publications</h4>
 
 {% assign publist = '' | split: '' %}
 {% for p in site.categories.publications %}
@@ -45,7 +45,8 @@ layout: secondary
 	{% endif %}	
 {% endfor %}
 
-<h3>Related talks</h3>
+<br/>
+<h4>Related talks</h4>
 
 {% assign publist = '' | split: '' %}
 {% for p in site.categories.talks %}

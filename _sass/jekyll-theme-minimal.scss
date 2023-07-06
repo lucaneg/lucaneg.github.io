@@ -426,16 +426,16 @@ venue {
     margin-top: 20px;
 }
 
-table.divtable {
+div.divtable table {
     table-layout: fixed;
 }
 
-table.divtable td {
+div.divtable td {
     border-bottom: 0;
     padding: 5px 15px;
 }
 
-table.divtable td:first-child {
+div.divtable td:first-child {
     text-align: right;
 }
 
