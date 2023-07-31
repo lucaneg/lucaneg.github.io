@@ -10,7 +10,7 @@ layout: secondary
 
 <venue>{{ page.venue }}</venue><br/>
 
-<small>{{ page.location }}, {{ page.when }}</small><br/>
+<small>{% if page.location %}{{ page.location }}, {% endif %}{{ page.when }}</small><br/>
 
 <small>{{ page.kind }}</small>
 
