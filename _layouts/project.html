@@ -41,7 +41,7 @@ layout: secondary
 {% for p in site.categories.publications %}
 	{% assign pprojects = p.projects | split: ' '  %}
 	{% if pprojects contains page.projid %}
-		<a href="{{ p.url }}"><i class="fas fa-book-open"></i> {{ p.title }}</a><br/>
+		<i class="fas fa-book-open"></i> <a href="{{ p.url }}">{{ p.title }}</a><br/>
 	{% endif %}	
 {% endfor %}
 
@@ -52,6 +52,6 @@ layout: secondary
 {% for p in site.categories.talks %}
 	{% assign pprojects = p.projects | split: ' '  %}
 	{% if pprojects contains page.projid %}
-		<a href="{{ p.url }}"><i class="fas fa-calendar-alt"></i> {{ p.title }}</a><br/>
+		<i class="fas fa-calendar-alt"></i> <a href="{{ p.url }}">{{ p.title }}</a><br/>
 	{% endif %}	
 {% endfor %}

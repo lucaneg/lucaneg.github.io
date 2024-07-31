@@ -1,28 +1,35 @@
 @import "fonts";
 /*@import "rouge-github";*/
 
-$palette-lighter: #FFFFFA;
-$palette-light: #7E9181;
-$palette-medium: #98969B;
-$palette-dark: #364156;
-$palette-darker: #212D40;
+$palette-light: #364156;
+$palette-medium: #212D40;
+$palette-dark: #11151C;
 
-$palette-lighter-variant: #F7F7F4;
-$palette-normal-text: #11151C;
-$palette-light-text: #727272;
+$palette-medium-variant: #B8B8D1;
 
-$body-color: $palette-lighter;
+$palette-heading-text: #5688C7;
+$palette-normal-text: #EEF0F2;
+$palette-highlight-text: #FFC145;
+
+$body-color: $palette-medium;
+
 $text-color: $palette-normal-text;
-$heading-color: $palette-darker;
-$highlight-color: $palette-light;
-$link-color: $palette-light-text;
-$hover-color: $palette-medium;
-$separator-color: $palette-light;
-$border-color: $palette-light;
+$link-color: $palette-highlight-text;
+$heading-color: $palette-heading-text;
+$social-icons-color: $palette-highlight-text;
+
+$highlight-color: $palette-dark;
+$hover-color: #9B2915;
+
+$separator-color: $palette-dark;
+$border-color: $palette-dark;
+
+$navigation-bar-color: $palette-heading-text;
+
+$topic-color: #5497A7;
+
 $code-color: $palette-normal-text;
-$code-background-color: $palette-lighter-variant;
-$navigation-bar-color: $palette-darker;
-$social-icons-color: $palette-medium;
+$code-background-color: $palette-medium-variant;
 
 $small-screen-size: 720px;
 $medium-screen-size: 1130px;
@@ -325,7 +332,7 @@ html {
 .head-menu-wrapper-internal {
     max-width: 1300px;
     margin: 0 auto;
-    border-bottom: .0625rem solid $separator-color;
+    border-bottom: .13rem solid $separator-color;
     
     @media print, screen and (max-width: $medium-screen-size) {
         width: 100%;
@@ -411,11 +418,11 @@ div.highlight > button:focus {
 /* this is the <topic> tag used with publications and talks */
 topic { 
     display: inline-block;
-    border: 1px $border-color solid;
+    border: 1px $topic-color solid;
     border-radius: 5px;
     padding: 0px 5px;
     font-size: 0.9rem;
-    color: $link-color;
+    color: $topic-color;
 }
 
 venue {
@@ -464,7 +471,7 @@ div.divtable td:first-child {
 }
 
 .project-box > span {
-    color: $heading-color;
+    color: $link-color;
 }
 
 .project-box > small {
