@@ -6,7 +6,7 @@ tags: string-analysis static-analysis abstract-interpretation
 venue: "In Journal of Software: Evolution and Processes"
 when: "February 14, 2024"
 authors: "L. Negrini, V. Arceri, A. Cortesi, P. Ferrara"
-projects: lisa
+projects: tarsis
 manuscript: "JSEP24.pdf"
 publishername: "Wiley"
 publisherpage: "https://onlinelibrary.wiley.com/doi/10.1002/smr.2647"
