@@ -18,7 +18,7 @@ $link-color: $palette-highlight-text;
 $heading-color: $palette-heading-text;
 $social-icons-color: $palette-highlight-text;
 
-$highlight-color: $palette-dark;
+$highlight-color: #5497A7;
 $hover-color: #9B2915;
 
 $separator-color: $palette-dark;
@@ -191,6 +191,11 @@ footer {
     bottom: 50px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+
+footer > p{
+    margin: 0;
+}
+
 
 @media print, screen and (max-width: $medium-screen-size) {
 
