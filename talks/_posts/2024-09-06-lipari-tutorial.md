@@ -2,7 +2,7 @@
 layout: talk
 kind: Tutorial
 title: "Getting started with LiSA"
-tags: static-analysis abstract-interpretation teaching
+tags: static-analysis abstract-interpretation tutorial
 venue: "Lipari Summer School 2024"
 location: "Lipari, Sicily, Italy"
 when: "June 24, 2024, 1:00 PM - 4:30 PM CEST"
