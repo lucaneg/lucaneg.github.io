@@ -26,7 +26,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 		<h3>Education</h3>
 		<ul class="fa-ul">
 			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>PhD in Computer Science<br/><small>Ca' Foscari University of Venice, 2023</small></li>
-			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>MSc in Computer Science and Engineering<br/><small>University of Verona, 2018</small></li>
+			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>MSc in Computer Science<br/><small>University of Verona, 2018</small></li>
 			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>BSc in Computer Science<br/><small>University of Verona, 2016</small></li>
 		</ul>
 	</div>
