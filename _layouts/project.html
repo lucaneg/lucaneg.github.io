@@ -37,21 +37,24 @@ layout: secondary
 
 <h4>Related publications</h4>
 
-{% assign publist = '' | split: '' %}
+<ul class="fa-ul">
 {% for p in site.categories.publications %}
 	{% assign pprojects = p.projects | split: ' '  %}
 	{% if pprojects contains page.projid %}
-		<i class="fas fa-book-open"></i> <a href="{{ p.url }}">{{ p.title }}</a><br/>
+	<li><span class="fa-li"><i class="fas fa-book-open"></i></span><a href="{{ p.url }}">{{ p.title }}</a></li>
 	{% endif %}	
 {% endfor %}
+</ul>
 
 <br/>
 <h4>Related talks</h4>
 
-{% assign publist = '' | split: '' %}
+<ul class="fa-ul">
 {% for p in site.categories.talks %}
 	{% assign pprojects = p.projects | split: ' '  %}
 	{% if pprojects contains page.projid %}
-		<i class="fas fa-calendar-alt"></i> <a href="{{ p.url }}">{{ p.title }}</a><br/>
+	<li><span class="fa-li"><i class="fas fa-calendar-alt"></i></span><a href="{{ p.url }}">{{ p.title }}</a></li>
 	{% endif %}	
 {% endfor %}
+</ul>
+

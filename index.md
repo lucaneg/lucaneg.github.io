@@ -10,9 +10,27 @@ I started studying computer science in high school, continuing with both Bachelo
 
 In October 2019, I joined the Ca' Foscari University of Venice as a PhD student in Computer Science, focusing on multi-language static analysis, and graduating in January 2023. I have now joined Ca' Foscary and the [Software and System Verification (SSV)](https://ssv.dais.unive.it/), first as a Research Fellow and now as an Assistant Professor (non-tenure).
 
-You can find my full CV [here](cv.pdf).
-
-<span class="subsect">Interests:</span> Static Program Analysis, Program Verification, Abstract Interpretation.
+<div class="row">
+	<div class="column">
+		<h3>Interests</h3>
+		<ul class="fa-ul">
+			<li><span class="fa-li"><i class="fas fa-book"></i></span>Static Program Analysis</li>
+			<li><span class="fa-li"><i class="fas fa-book"></i></span>Program Verification</li>
+			<li><span class="fa-li"><i class="fas fa-book"></i></span>Abstract Interpretation</li>
+			<li><span class="fa-li"><i class="fas fa-book"></i></span>Cybersecurity</li>
+			<li><span class="fa-li"><i class="fas fa-book"></i></span>Software Engineering</li>
+			<li><span class="fa-li"><i class="fas fa-book"></i></span>Software Development</li>
+		</ul>
+	</div>
+	<div class="column">
+		<h3>Education</h3>
+		<ul class="fa-ul">
+			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>PhD in Computer Science<br/><small>Ca' Foscari University of Venice, 2023</small></li>
+			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>MSc in Computer Science and Engineering<br/><small>University of Verona, 2018</small></li>
+			<li><span class="fa-li"><i class="fas fa-user-graduate"></i></span>BSc in Computer Science<br/><small>University of Verona, 2016</small></li>
+		</ul>
+	</div>
+</div>
 
 ## Projects
 

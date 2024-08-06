@@ -253,11 +253,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.subsect {
-    font-weight: bold;
-    display: inline-block;
-}
-
 #contactPhoto {
     width: 100%;
 	height: auto;
@@ -284,8 +279,28 @@ html {
     }
 }
 
+.column {
+    float: left;
+    width: 50%;
+    
+    @media screen and (max-width: $small-screen-size) {
+        width: 100%;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fa-ul > li {
+    margin: 0 !important;
+}
+
 .backlink {
     display: none;
+    margin-bottom: 10px;
     
     @media (max-width: $small-screen-size) {
         display: block;
@@ -297,23 +312,25 @@ html {
     margin-bottom: 20px;
 }
 
-.links {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.links {    
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 10px;
-}
-
-.links li {
-    padding: 0px 10px 0px 0px;
+    align-items: center;
+    align-content: center;
+    margin: 10px auto;
 }
 
 .links {
     a:link, a:visited, a:hover, a:active    {
         color: $social-icons-color;
+    }
+    
+    a {
+        flex: 0 0 15%;
+        margin: 5px 0;
     }
 }
 
