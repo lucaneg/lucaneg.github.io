@@ -60,7 +60,6 @@ lunr.QueryLexer.termSeparator = /\s+/
 lunr.tokenizer.separator = /\s+/
 var customPipeline = function (builder) {
 	var pipelineFunction = function (token) {
-		console.log(token);
 		if (!token.toString().includes('-'))
 			return token;
 
@@ -84,10 +83,10 @@ var customPipeline = function (builder) {
 var idx = lunr(function () {
 	this.use(customPipeline);
 
-	this.ref('id')
-	this.field('title')
-	this.field('body')
-	this.field('tags')
+	this.ref('id'),
+	this.field('title'), { boost : 20 },
+	this.field('body'),
+	this.field('tags'), { boost : 10 },
 
 	documents.forEach(function (doc) {
 		this.add(doc)
@@ -125,8 +124,8 @@ function lunr_search(term) {
 					+ "<a href='" + url + "'><span class='title'>" + title + "</span></a><br/>";
 				
 				if (doc['tags'] != "") {
-					tags = doc['tags'].split(" ").join("</topic>&nbsp;&nbsp;<topic>");
-					element = element + "<topic>" + tags + "</topic><br/>"
+					tags = doc['tags'].split(" ").join("</a>&nbsp;&nbsp;<a class=\"topic\">");
+					element = element + "<a class=\"topic\">" + tags + "</a><br/>"
 				}
 				
 				var element = element + "<span class='body'>"+ body +"</span></li>";

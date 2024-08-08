@@ -437,14 +437,18 @@ div.highlight > button:focus {
     opacity: 1;
 }
 
-/* this is the <topic> tag used with publications and talks */
-topic { 
+.topic, .topic:visited, .topic:link {
     display: inline-block;
     border: 1px $topic-color solid;
     border-radius: 5px;
     padding: 0px 5px;
     font-size: 0.9rem;
-    color: $topic-color;
+    color: $topic-color !important;
+}
+
+.topic:hover, .topic:focus {
+    text-decoration: underline;
+    color: $topic-color !important;
 }
 
 venue {

@@ -1,0 +1,5 @@
+<script>
+document.querySelectorAll('.topic').forEach((itm, index) => {
+	itm.href = "{{ site.baseurl }}/search.html?term=tags:" + itm.innerHTML;
+})
+</script>

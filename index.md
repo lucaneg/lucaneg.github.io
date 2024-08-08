@@ -70,7 +70,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 	<li>
 		<span class="fa-li"><i class="fas fa-book-open"></i></span>
 		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
-		<topic>{{ post.tags | join: "</topic>&nbsp;&nbsp;<topic>" }}</topic><br/>
+		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}
 		{% if post.manuscript %}
@@ -90,7 +90,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 	<li>
 		<span class="fa-li"><i class="fas fa-calendar-alt"></i></span>
 		<a href="{{ post.url }}">{{ post.title }}</a><br/>
-		<topic>{{ post.tags | join: "</topic>&nbsp;&nbsp;<topic>" }}</topic><br/>
+		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}
 		{% if post.manuscript %}
