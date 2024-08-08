@@ -451,10 +451,6 @@ venue {
     font-size: 0.9rem;
 }
 
-.fa-ul > li {
-    margin-top: 20px;
-}
-
 div.divtable table {
     table-layout: fixed;
 }
@@ -466,6 +462,28 @@ div.divtable td {
 
 div.divtable td:first-child {
     text-align: right;
+}
+
+#lunrsearch {
+    width: 85%;
+    background: $body-color;
+    border: 2px $separator-color solid;
+    border-radius: 10px;  
+    font-size: inherit;
+    padding: 0 10px;
+    height: 30px;
+    color: $text-color;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.lunrsearchresult .body {
+    display: block; color: #777;
+    margin-bottom: 20px !important;
+}
+
+.lunrsearchresult .body:hover, .lunrsearchresult .body:focus {
+    text-decoration: none;
 }
 
 .project-box-wrapper {
