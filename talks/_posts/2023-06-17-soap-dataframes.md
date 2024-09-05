@@ -10,6 +10,7 @@ projects: lisa
 relatedpub: "2023-06-17-soap-dataframes.md"
 relatedpubtitle: "Paper @ SOAP 2023"
 confpage: "https://pldi23.sigplan.org/details/SOAP-2023-papers/1/Static-Analysis-of-Data-Transformations-in-Jupyter-Notebooks"
+presentation: "SOAP23.odp"
 ---
 
 ### Abstract

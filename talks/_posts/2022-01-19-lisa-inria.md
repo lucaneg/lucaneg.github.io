@@ -7,6 +7,7 @@ venue: "École Normale Supérieure, INRIA Team ANTIQUE"
 location: "Paris, France"
 when: "January 19, 2022, 9:30 AM - 10:00 AM EST"
 projects: lisa
+presentation: "INRIA22.pptx"
 ---
 
 ### Abstract

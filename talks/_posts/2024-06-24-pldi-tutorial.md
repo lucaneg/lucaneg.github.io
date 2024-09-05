@@ -8,6 +8,7 @@ location: "Copenhagen, Denmark"
 when: "June 24, 2024, 9:00 AM - 12:20 AM CEST"
 projects: lisa
 confpage: "https://pldi24.sigplan.org/details/pldi-2024-tutorials/5/Quick-and-dirty-development-of-static-analyses-with-LiSA"
+presentation: "PLDI24.pptx"
 ---
 
 ### Abstract

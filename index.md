@@ -94,7 +94,10 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}
 		{% if post.manuscript %}
-			 • <i class="fas fa-file-pdf"></i> PDF available<br/>
+			 • <i class="fas fa-file-pdf"></i> PDF available
+		{% endif %}
+		{% if post.presentation %}
+			 • <i class="fas fa-file-powerpoint"></i> Slides available
 		{% endif %}
 		</small>
 	</li>
@@ -108,4 +111,4 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 
 In my PhD thesis, I defined a generic framework for the development of modular multilanguage static analyses using the abstract interpretation theory. The framework has been implemented in [LiSA]({% link projects/lisa.md %}). LiSA strives to be modular, while ensuring that analysis components are parametric to all language-specific features. Together with my colleagues, we instantiated LiSA for the analysis of smart contracts written in Go using GoLiSA, and for the analysis of data science notebooks written in Python using PyLiSA. The framework is then strenghtened by two additiona components: SARL, a domain-specific language that can be used to compactly model how frameworks and libraries interact with the analyzed application, and Tarsis, an abstract domain that abstracts strings as regular languages.
 
-You can access the full thesis [here](manuscripts/phd-thesis.pdf).
+You can access the full thesis [here](manuscripts/phd-thesis.pdf), and the slides used for the defence [here](slides/phd-defence.pptx).

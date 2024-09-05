@@ -10,6 +10,7 @@ projects: tarsis
 relatedpub: "2021-01-18-vmcai-tarsis.md"
 relatedpubtitle: "Paper @ VMCAI 2021"
 confpage: "https://popl21.sigplan.org/details/VMCAI-2021-papers/6/Twinning-automata-and-regular-expressions-for-string-static-analysis"
+presentation: "VMCAI21.pptx"
 ---
 
 ### Abstract

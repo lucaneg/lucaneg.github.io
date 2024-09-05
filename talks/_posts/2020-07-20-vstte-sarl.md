@@ -9,6 +9,7 @@ when: "July 20, 2020, 5:30 AM - 5:50 AM PDT"
 relatedpub: "2020-07-20-vstte-sarl.md"
 relatedpubtitle: "Paper @ VSTTE 2020"
 confpage: "https://sri-csl.github.io/VSTTE20/#program"
+presentation: "VSTTE20.pptx"
 ---
 
 ### Abstract

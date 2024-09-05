@@ -18,6 +18,12 @@ layout: secondary
 <div class="divtable">
   <table>
     <tbody>
+{% if page.presentation %}
+      <tr>
+      	<td><i class="fas fa-file-powerpoint"></i> Presentation:</td>
+        <td><a href="{{ site.baseurl }}/slides/{{ page.presentation }}">Slides</a></td>
+      </tr>
+{% endif %}
 {% if page.manuscript %}
       <tr>
       	<td><i class="fas fa-file-pdf"></i> Manuscript:</td>
