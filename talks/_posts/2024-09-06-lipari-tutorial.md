@@ -8,6 +8,7 @@ location: "Lipari, Sicily, Italy"
 when: "June 24, 2024, 1:00 PM - 4:30 PM CEST"
 projects: lisa
 confpage: "https://absint24.liparischool.it/"
+presentation: "LIPARI24.pptx"
 ---
 
 ### Abstract
