@@ -1,14 +1,16 @@
 ---
-layout: talk
-kind: Workshop presentation
+layout: publication
+kind: Extended abstract with no proceedings
 title: "SARL: Framework Specification for Static Analysis"
 tags: library-models software-frameworks static-analysis
 venue: "The Ninth Workshop on Tools for Automatic Program Analysis (TAPAS 2018)"
 location: "Freiburg im Breisgau, Germany"
 when: "August 28, 2018, 4:00 PM - 4:30 PM CEST"
-relatedpub: "2018-08-28-tapas-sarl.md"
-relatedpubtitle: "Paper @ TAPAS 2018"
-presentation: "TAPAS18.pptx"
+authors: "L. Negrini, P. Ferrara"
+relatedtalk: "2018-08-28-tapas-sarl.md"
+relatedtalktitle: "Talk @ TAPAS 2018"
+manuscript: "TAPAS18.pdf"
+confpage: "https://staticanalysis.org/tapas2018/"
 ---
 
 ### Abstract

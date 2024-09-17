@@ -20,6 +20,7 @@ twitter:
 
 exclude: [README.md]
 future: true
+permalink: /:categories/:year-:month-:day-:title:output_ext
 
 plugins:
   - jekyll-sitemap

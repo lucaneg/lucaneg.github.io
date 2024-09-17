@@ -4,15 +4,15 @@ layout: secondary
 
 <a class="topic">{{ page.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 
-<h1>Publication: {{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-{{ page.authors }}<br/><br/>
+Authors: {{ page.authors }}<br/>
 
 <venue>{{ page.venue }}</venue><br/>
 
 <small>{% if page.location %}{{ page.location }}, {% endif %}{{ page.when }}</small><br/>
 
-<small>{{ page.kind }}</small>
+<small>{{ page.kind }}</small><br/>
 
 <br/>
 {{content}}
@@ -29,7 +29,14 @@ layout: secondary
 {% if page.relatedtalktitle and page.relatedtalk %}
       <tr>
       	<td><i class="fas fa-calendar-alt"></i> Conference talk:</td>
-        <td><a href="{{ page.relatedtalk }}">{{ page.relatedtalktitle }}</a></td>
+      	{%- assign target_page = "/talks/_posts/" | append: page.relatedtalk -%}
+        {%- assign has_ext = page.relatedtalk | split: ".md" -%}
+        {%- if has_ext.size == 1 and has_ext[0] != page.relatedtalk -%}
+           {%- assign target_page = has_ext[0] -%}
+        {%- else -%}
+           {%- assign target_page = page.relatedtalk -%}
+        {%- endif -%}
+        <td><a href="{{ site.baseurl }}/talks/{{ target_page }}.html">{{ page.relatedtalktitle }}</a></td>
       </tr>
 {% endif %}
 {% if page.projects %}
