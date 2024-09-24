@@ -4,6 +4,8 @@ layout: secondary
 
 ## All talks
 
+You can find all available slides for the talks in this page [here]({{ site.baseurl }}/slides/). Each individual talk's page will contain a direct link to the corresponding slides when available.
+
 {% assign first_talk = site.categories.talks | first %}
 {% assign year = first_talk.date | date: "%Y" %}
 
