@@ -9,6 +9,8 @@ when: "May 14-15, 2024"
 authors: "L. Olivieri, L. Pasetto, L. Negrini and P. Ferrara"
 manuscript: "DLT24.pdf"
 confpage: "https://dlt2024.di.unito.it/"
+publishername: "CEUR"
+publisherpage: "https://ceur-ws.org/Vol-3791/"
 ---
 
 ### Abstract
