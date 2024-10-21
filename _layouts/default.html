@@ -17,7 +17,7 @@
 		<!-- Icons created by FACH - Flaticon https://www.flaticon.com/free-icons/computer-education -->
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/academicons.min.css"/>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/all.css"> 
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/fontawesome.min.css">
 
 		<title>{{ site.title }}</title>
 	</head>
@@ -48,7 +48,7 @@
 						<a href="{{ site.research-gate }}"><i class="ai ai-researchgate big-icon"></i></a>
 						<a href="{{ site.baseurl }}/cv.pdf"><i class="ai ai-cv big-icon"></i></a>
 					</div>
-					
+
 					{% include search-lunr.html %}
 				</div>
 			</header>
@@ -56,10 +56,6 @@
 			<section>
 				{{ content }}
 			</section>
-			<footer>
-				<p><small>&copy; {{ 'now' | date: "%Y" }} Luca Negrini<br/>
-				Hosted on GitHub Pages &mdash; Original theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-			</footer>
 		</div>
 		<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 		{% include topics.html %}
