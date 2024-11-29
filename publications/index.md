@@ -4,7 +4,7 @@ layout: secondary
 
 ## All publications
 
-You can find all available PDFs for the publications in this page [here]({{ site.baseurl }}/manuscripts/). Each individual publication's page will contain a direct link to the corresponding manuscript when available.
+You can find all available PDFs for the publications in this page [here]({{ site.baseurl }}/papers/). Each individual publication's page will contain a direct link to the corresponding manuscript when available.
 
 {% assign first_publication = site.categories.publications | first %}
 {% assign year = first_publication.date | date: "%Y" %}
