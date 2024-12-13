@@ -11,6 +11,8 @@ authors: "L. Negrini, S. Presotto, P. Ferrara, E. Zaffanella, A. Cortesi"
 confpage: "https://2024.splashcon.org/details/nsad-2024-papers/2/Stability-an-Abstract-Domain-for-the-Trend-of-Variation-of-Numerical-Variables"
 relatedtalk: "2024-10-22-nsad-stability.md"
 relatedtalktitle: "Talk @ NSAD 2024"
+publishername: "ACM"
+publisherpage: https://dl.acm.org/doi/10.1145/3689609.3689995
 ---
 
 ### Abstract
