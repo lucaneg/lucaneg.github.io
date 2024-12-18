@@ -6,7 +6,7 @@ tags: data-science static-analysis abstract-interpretation jupyter-notebooks
 venue: "Proceedings of the 12th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP 2023)"
 location: "Orlando, FL, USA & online"
 when: "June 17, 2023"
-authors: "L. Negrini, G. Shabadi, C. Urban"
+authors: "Luca Negrini, Guruprerana Shabadi, Caterina Urban"
 projects: lisa
 manuscript: "SOAP23.pdf"
 relatedtalk: "2023-06-17-soap-dataframes.md"

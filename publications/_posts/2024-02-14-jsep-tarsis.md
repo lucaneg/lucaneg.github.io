@@ -5,7 +5,7 @@ title: "Tarsis: An effective automata-based abstract domain for string analysis"
 tags: string-analysis static-analysis abstract-interpretation
 venue: "Journal of Software: Evolution and Processes"
 when: "February 14, 2024"
-authors: "L. Negrini, V. Arceri, A. Cortesi, P. Ferrara"
+authors: "Luca Negrini, Vincenzo Arceri, Agostino Cortesi, Pietro Ferrara"
 projects: tarsis
 manuscript: "JSEP24.pdf"
 publishername: "Wiley"

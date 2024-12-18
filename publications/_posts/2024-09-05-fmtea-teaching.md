@@ -6,7 +6,7 @@ tags: static-analysis abstract-interpretation teaching
 venue: "Formal Methods Teaching (FMTea 2024)"
 location: "Milan, Italy"
 when: "September 10, 2024"
-authors: "L. Negrini, V. Arceri, L. Olivieri, A. Cortesi, P. Ferrara"
+authors: "Luca Negrini, Vincenzo Arceri, Luca Olivieri, Agostino Cortesi, Pietro Ferrara"
 projects: lisa
 manuscript: "FMTEA24.pdf"
 confpage: "https://fmtea.github.io/"

@@ -6,7 +6,7 @@ tags: blockchain static-analysis abstract-interpretation
 venue: "Proceedings of the 11th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP 2022)"
 location: "San Diego, CA, USA & online"
 when: "June 14, 2022"
-authors: "L. Olivieri, F. Tagliaferro, V. Arceri, M. Ruaro, L. Negrini, A. Cortesi, P. Ferrara, F. Spoto, E. Tallin"
+authors: "Luca Olivieri, Fabio Tagliaferro, Vincenzo Arceri, Marco Ruaro, Luca Negrini, Agostino Cortesi, Pietro Ferrara, Fausto Spoto, Enrico Tallin"
 projects: lisa
 manuscript: "SOAP22.pdf"
 confpage: "https://pldi22.sigplan.org/details/SOAP-2022-papers/4/Ensuring-Determinism-in-Blockchain-Software-with-GoLiSA-An-Industrial-Experience-Rep"

@@ -6,7 +6,7 @@ tags: string-analysis static-analysis abstract-interpretation
 venue: "22nd International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2021)"
 location: "Online conference"
 when: "January 17-19, 2021"
-authors: "L. Negrini, V. Arceri, P. Ferrara, A. Cortesi"
+authors: "Luca Negrini, Vincenzo Arceri, Pietro Ferrara, Agostino Cortesi"
 projects: tarsis
 manuscript: "VMCAI21.pdf"
 relatedtalk: "2021-01-18-vmcai-tarsis.md"

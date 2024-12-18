@@ -7,6 +7,17 @@
 
 		{% seo %}
 
+		{% if page.layout == 'publication' %}
+		<meta name="citation_title" content="{{ page.title }}">
+		{% assign authors = page.authors | split: ", " %}
+		{% for a in authors %}
+		<meta name="citation_author" content="{{ a }}">
+		{% endfor %}
+		<meta name="citation_publication_date" content="{{ page.when | date: '%Y/%m/%d' }}">
+		<meta name="citation_journal_title" content="{{ page.venue }}">
+		<meta name="citation_pdf_url" content="{{ site.baseurl }}/papers/{{ page.manuscript }}">
+		{% endif %}
+
 		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
 		<!--[if lt IE 9]>

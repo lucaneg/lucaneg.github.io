@@ -6,7 +6,7 @@ tags: blockchain static-analysis abstract-interpretation
 venue: "Proceedings of the 37th European Conference on Object-Oriented Programming (ECOOP 2023)"
 location: "Seattle, Washington, USA"
 when: "July 11, 2023"
-authors: "L. Olivieri, V. Arceri, L. Negrini, F. Tagliaferro, P. Ferrara, A. Cortesi, F. Spoto"
+authors: "Luca Olivieri, Vincenzo Arceri, Luca Negrini, Fabio Tagliaferro, Pietro Ferrara, Agostino Cortesi, Fausto Spoto"
 projects: lisa
 manuscript: "ECOOP23.pdf"
 confpage: "https://2023.ecoop.org/details/ecoop-2023-papers/9/Flow-Analysis-for-Detecting-Non-Determinism-in-Blockchain"

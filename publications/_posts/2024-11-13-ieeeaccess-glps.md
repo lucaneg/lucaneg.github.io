@@ -3,9 +3,9 @@ layout: publication
 kind: "Journal paper"
 title: "General-Purpose Languages for Blockchain Smart Contracts Development: A Comprehensive Study"
 tags: blockchain programming-languages
-venue: "IEEE Access, Volume 12"
+venue: "IEEE Access"
 when: "November 13, 2024"
-authors: "L. Olivieri, V. Arceri, B. Chachar, L. Negrini, F. Tagliaferro, F. Spoto, P. Ferrara, A. Cortesi"
+authors: "Luca Olivieri, Vincenzo Arceri, Badaruddin Chachar, Luca Negrini, Fabio Tagliaferro, Fausto Spoto, Pietro Ferrara, Agostino Cortesi"
 manuscript: "IEEEA24-2.pdf"
 publishername: "IEEE"
 publisherpage: "https://ieeexplore.ieee.org/document/10749761"

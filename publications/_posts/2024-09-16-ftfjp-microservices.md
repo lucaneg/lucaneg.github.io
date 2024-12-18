@@ -6,7 +6,7 @@ tags: static-analysis abstract-interpretation microservices
 venue: "Formal Techniques for Java-like Programs (FTfJP 2024)"
 location: "Wien, Austria"
 when: "September 16, 2024"
-authors: "G. Zanatta, P. Ferrara, T. Lisovenko, L. Negrini, G. Caiazza, R. White"
+authors: "Giacomo Zanatta, Pietro Ferrara, Teodors Lisovenko, Luca Negrini, Gianluca Caiazza, Ruffin White"
 projects: lisa
 manuscript: "FTFJP24-1.pdf"
 confpage: "https://conf.researchr.org/details/issta-ecoop-2024/FTfJP-2024-papers/7/Sound-Static-Analysis-for-Microservices-Utopia-A-preliminary-experience-with-LiSA"
