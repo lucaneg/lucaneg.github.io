@@ -9,6 +9,7 @@ when: "October 22, 2024, 3:00 PM - 3:30 PM PST"
 relatedpub: "2024-10-22-nsad-stability.md"
 relatedpubtitle: "Paper @ NSAD 2024"
 confpage: "https://2024.splashcon.org/details/nsad-2024-papers/2/Stability-an-Abstract-Domain-for-the-Trend-of-Variation-of-Numerical-Variables"
+presentation: "NSAD24.pdf"
 ---
 
 ### Abstract
