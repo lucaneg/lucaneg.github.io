@@ -2,7 +2,10 @@
 layout: publication
 kind: "Conference paper"
 title: "Twinning Automata and Regular Expressions for String Static Analysis"
-tags: string-analysis static-analysis abstract-interpretation
+tags:
+  - string-analysis
+  - static-analysis
+  - abstract-interpretation
 venue: "22nd International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2021)"
 location: "Online conference"
 when: "January 17-19, 2021"

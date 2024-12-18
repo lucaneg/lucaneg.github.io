@@ -2,7 +2,11 @@
 layout: publication
 kind: "Workshop paper"
 title: "Static Analysis of Data Transformations in Jupyter Notebooks"
-tags: data-science static-analysis abstract-interpretation jupyter-notebooks
+tags:
+  - data-science
+  - static-analysis
+  - abstract-interpretation
+  - jupyter-notebooks
 venue: "Proceedings of the 12th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP 2023)"
 location: "Orlando, FL, USA & online"
 when: "June 17, 2023"

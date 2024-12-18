@@ -2,7 +2,10 @@
 layout: talk
 kind: Workshop presentation
 title: "Stability: an Abstract Domain for the Trend of Variation of Numerical Variables"
-tags: static-analysis abstract-interpretation numeric-abstractions
+tags:
+  - static-analysis
+  - abstract-interpretation
+  - numeric-abstractions
 venue: "10th ACM SIGPLAN International Workshop on Numerical and Symbolic Abstract Domains (NSAD 2024)"
 location: "Pasadena, California, United States"
 when: "October 22, 2024, 3:00 PM - 3:30 PM PST"

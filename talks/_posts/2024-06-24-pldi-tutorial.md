@@ -2,7 +2,10 @@
 layout: talk
 kind: Tutorial
 title: "Quick and dirty development of static analyses with LiSA"
-tags: static-analysis abstract-interpretation tutorial
+tags:
+  - static-analysis
+  - abstract-interpretation
+  - tutorial
 venue: "45th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2024)"
 location: "Copenhagen, Denmark"
 when: "June 24, 2024, 9:00 AM - 12:20 AM CEST"

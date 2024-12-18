@@ -45,8 +45,7 @@ layout: secondary
 {% endif %}
 {% if page.projects %}
 	{% assign projectlist = '' | split: '' %}
-	{% assign referredprojects = page.projects | split: ' ' %}
-	{% for p in referredprojects %}
+	{% for p in page.projects %}
 		{% assign matching = site.pages | where: "project", true | where: "projid", p %}
 		{% assign projectlist = projectlist | concat: matching %}
 	{% endfor %}

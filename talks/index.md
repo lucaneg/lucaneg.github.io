@@ -24,12 +24,39 @@ You can find all available slides for the talks in this page [here]({{ site.base
 		<a href="{{ post.url }}">{{ post.title }}</a><br/>
 		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 		<venue>{{ post.venue }}</venue><br/>
-		<small>{{ post.kind }} - {{ post.date | date: "%-d %B %Y" }} - {{ post.location }}
+		<small>{{ post.kind }} - {{ post.when }}
+		{% if post.location %}
+			- {{ post.location }}
+		{% endif %}
 		{% if post.manuscript %}
-			 • <i class="fas fa-file-pdf"></i> PDF available
+			• <i class="fas fa-file-pdf"></i> PDF available
 		{% endif %}
 		{% if post.presentation %}
-			 • <i class="fas fa-file-powerpoint"></i> Slides available
+			• <i class="fas fa-file-powerpoint"></i> Slides available
+		{% endif %}
+		</small>
+	</li>
+{% endfor %}
+</ul>
+
+<h3>PhD Thesis</h3>
+<ul class="fa-ul talk-list">
+{% assign thesis = site.pages | where: "phdthesis", true %}
+{% for post in thesis %}
+	<li>
+		<span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
+		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
+		<venue>{{ post.venue }}</venue><br/>
+		<small>{{ post.kind }} - {{ post.when }}
+		{% if post.location %}
+			- {{ post.location }}
+		{% endif %}
+		{% if post.manuscript %}
+			• <i class="fas fa-file-pdf"></i> PDF available
+		{% endif %}
+		{% if post.presentation %}
+			• <i class="fas fa-file-powerpoint"></i> Slides available
 		{% endif %}
 		</small>
 	</li>

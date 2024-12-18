@@ -2,7 +2,10 @@
 layout: publication
 kind: "Workshop paper"
 title: "Teaching Through Practice: Advanced Static Analysis with LiSA"
-tags: static-analysis abstract-interpretation teaching
+tags:
+  - static-analysis
+  - abstract-interpretation
+  - teaching
 venue: "Formal Methods Teaching (FMTea 2024)"
 location: "Milan, Italy"
 when: "September 10, 2024"

@@ -2,7 +2,10 @@
 layout: talk
 kind: Seminar
 title: "Using LiSA for analyzing an IoT network"
-tags: static-analysis abstract-interpretation multilanguage-analysis
+tags:
+  - static-analysis
+  - abstract-interpretation
+  - multilanguage-analysis
 venue: "Università Ca’ Foscari Venezia"
 location: "Venice, Italy (Virtual talk)"
 when: "June 15, 2022, 2:30 PM - 3:00 PM CEST"

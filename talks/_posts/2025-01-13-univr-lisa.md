@@ -2,7 +2,10 @@
 layout: talk
 kind: Seminar
 title: "Practical Abstract Interpretation with LiSA"
-tags: tutorial static-analysis abstract-interpretation
+tags:
+  - tutorial
+  - static-analysis
+  - abstract-interpretation
 venue: "Università degli Studi di Verona"
 location: "Verona, Italy"
 when: "January 13, 2024, 9:30 AM - 12:30 PM CET"

@@ -2,7 +2,10 @@
 layout: publication
 kind: "Workshop paper"
 title: "Ensuring Determinism in Blockchain Software with GoLiSA: An Industrial Experience Report"
-tags: blockchain static-analysis abstract-interpretation
+tags:
+  - blockchain
+  - static-analysis
+  - abstract-interpretation
 venue: "Proceedings of the 11th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP 2022)"
 location: "San Diego, CA, USA & online"
 when: "June 14, 2022"

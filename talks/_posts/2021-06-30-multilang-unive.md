@@ -2,7 +2,10 @@
 layout: talk
 kind: Seminar
 title: "Modular Multi‑language analysis in LiSA"
-tags: static-analysis abstract-interpretation multilanguage-analysis
+tags:
+  - static-analysis
+  - abstract-interpretation
+  - multilanguage-analysis
 venue: "Università Ca’ Foscari Venezia"
 location: "Venice, Italy (Virtual talk)"
 when: "June 30, 2021, 10:00 AM - 10:30 AM CEST"

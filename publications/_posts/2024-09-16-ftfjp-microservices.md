@@ -2,7 +2,10 @@
 layout: publication
 kind: "Workshop paper"
 title: "Sound Static Analysis for Microservices: Utopia? A preliminary experience with LiSA"
-tags: static-analysis abstract-interpretation microservices
+tags:
+  - static-analysis
+  - abstract-interpretation
+  - microservices
 venue: "Formal Techniques for Java-like Programs (FTfJP 2024)"
 location: "Wien, Austria"
 when: "September 16, 2024"

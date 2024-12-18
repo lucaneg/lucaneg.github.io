@@ -2,7 +2,10 @@
 layout: publication
 kind: "Journal paper"
 title: "Detection of Phantom Reads in Hyperledger Fabric"
-tags: blockchain static-analysis abstract-interpretation
+tags:
+  - blockchain
+  - static-analysis
+  - abstract-interpretation
 venue: "IEEE Access, Volume 12"
 when: "June 5, 2024"
 authors: "Luca Olivieri, Luca Negrini, Vincenzo Arceri, Badaruddin Chachar, Pietro Ferrara, Agostino Cortesi"

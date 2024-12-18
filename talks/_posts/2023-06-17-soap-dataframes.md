@@ -2,7 +2,11 @@
 layout: talk
 kind: Conference presentation
 title: "Static Analysis of Data Transformations in Jupyter Notebooks"
-tags: data-science static-analysis abstract-interpretation jupyter-notebooks
+tags:
+  - data-science
+  - static-analysis
+  - abstract-interpretation
+  - jupyter-notebooks
 venue: "12th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP 2023)"
 location: "Orlando FL USA (Virtual talk)"
 when: "June 17, 2023, 9:30 AM - 10:00 AM EST"

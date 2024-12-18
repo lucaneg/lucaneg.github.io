@@ -2,7 +2,10 @@
 layout: publication
 kind: Extended abstract with no proceedings
 title: "SARL: Framework Specification for Static Analysis"
-tags: library-models software-frameworks static-analysis
+tags:
+  - library-models
+  - software-frameworks
+  - static-analysis
 venue: "The Ninth Workshop on Tools for Automatic Program Analysis (TAPAS 2018)"
 location: "Freiburg im Breisgau, Germany"
 when: "August 28, 2018, 4:00 PM - 4:30 PM CEST"

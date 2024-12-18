@@ -2,7 +2,10 @@
 layout: publication
 kind: "Conference paper"
 title: "SARL: OO Framework Specification for Static Analysis"
-tags: library-models software-frameworks static-analysis
+tags: 
+  - library-models
+  - software-frameworks
+  - static-analysis
 venue: "12th Working Conference on Verified Software: Theories, Tools, and Experiments (VSTTE 2020)"
 location: "Online conference"
 when: "July 20, 2020"

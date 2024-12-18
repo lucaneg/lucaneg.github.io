@@ -2,7 +2,9 @@
 layout: publication
 kind: "Workshop paper"
 title: "European Union Data Act and Blockchain Technology: Challenges and New Directions"
-tags: data-act blockchain
+tags:
+  - data-act
+  - blockchain
 venue: "6th Distributed Ledger Technologies Workshop (DLT2024)"
 location: "Turin, Italy"
 when: "May 14-15, 2024"

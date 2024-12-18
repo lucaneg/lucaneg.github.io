@@ -2,7 +2,10 @@
 layout: publication
 kind: "Journal paper"
 title: "Design and Implementation of Static Analyses for Tezos Smart Contracts"
-tags: blockchain static-analysis abstract-interpretation 
+tags:
+  - blockchain
+  - static-analysis
+  - abstract-interpretation 
 venue: "Distributed Ledger Technologies: Research and Practice"
 when: "January 11, 2024"
 authors: "Luca Olivieri, Luca Negrini, Vincenzo Arceri, Thomas Jensen, Fausto Spoto"

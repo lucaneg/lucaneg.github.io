@@ -26,6 +26,12 @@ Authors: {{ page.authors }}<br/>
         <td><a href="{{ site.baseurl }}/papers/{{ page.manuscript }}">PDF</a></td>
       </tr>
 {% endif %}
+{% if page.presentation %}
+      <tr>
+      	<td><i class="fas fa-file-powerpoint"></i> Presentation:</td>
+        <td><a href="{{ site.baseurl }}/slides/{{ page.presentation }}">Slides</a></td>
+      </tr>
+{% endif %}
 {% if page.relatedtalktitle and page.relatedtalk %}
       <tr>
       	<td><i class="fas fa-calendar-alt"></i> Conference talk:</td>
@@ -41,8 +47,7 @@ Authors: {{ page.authors }}<br/>
 {% endif %}
 {% if page.projects %}
 	{% assign projectlist = '' | split: '' %}
-	{% assign referredprojects = page.projects | split: ' ' %}
-	{% for p in referredprojects %}
+	{% for p in page.projects %}
 		{% assign matching = site.pages | where: "project", true | where: "projid", p %}
 		{% assign projectlist = projectlist | concat: matching %}
 	{% endfor %}

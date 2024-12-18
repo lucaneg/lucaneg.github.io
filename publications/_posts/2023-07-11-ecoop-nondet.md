@@ -2,7 +2,10 @@
 layout: publication
 kind: "Conference paper"
 title: "Information Flow Analysis for Detecting Non-Determinism in Blockchain"
-tags: blockchain static-analysis abstract-interpretation 
+tags:
+  - blockchain
+  - static-analysis
+  - abstract-interpretation 
 venue: "Proceedings of the 37th European Conference on Object-Oriented Programming (ECOOP 2023)"
 location: "Seattle, Washington, USA"
 when: "July 11, 2023"
