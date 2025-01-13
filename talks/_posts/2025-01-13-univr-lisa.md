@@ -11,6 +11,7 @@ location: "Verona, Italy"
 when: "January 13, 2024, 9:30 AM - 12:30 PM CET"
 confpage: "https://www.univr.it/en/seminars/-/evento/6485?p_auth=ZBNhgDT1"
 projects: lisa
+presentation: "UNIVR25.pdf"
 ---
 
 ### Abstract
