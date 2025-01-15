@@ -17,7 +17,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Static Program Analysis</li>
 			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Abstract Interpretation</li>
 			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Program Verification</li>
-			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Programming Lanugages</li>
+			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Programming Languages</li>
 			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Cybersecurity</li>
 			<li><span class="fa-li"><i class="fas fa-crosshairs"></i></span>Software Engineering</li>
 		</ul>
