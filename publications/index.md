@@ -21,7 +21,7 @@ You can find all available PDFs for the publications in this page [here]({{ site
 	{% endif %}
 	<li>
 		<span class="fa-li"><i class="fas fa-book-open"></i></span>
-		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
+		{{ post.authors | join: ', ' }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
 		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.when }}
@@ -45,7 +45,7 @@ You can find all available PDFs for the publications in this page [here]({{ site
 {% for post in thesis %}
 	<li>
 		<span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
-		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
+		{{ post.authors | join: ', ' }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
 		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.when }}

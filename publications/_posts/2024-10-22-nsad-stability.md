@@ -9,8 +9,14 @@ tags:
 venue: "10th ACM SIGPLAN International Workshop on Numerical and Symbolic Abstract Domains (NSAD 2024)"
 location: "Pasadena, California, United States"
 when: "October 22, 2024"
+pubdate: "2024/10/17"
 manuscript: "NSAD24.pdf"
-authors: "Luca Negrini, Sofia Presotto, Pietro Ferrara, Enea Zaffanella, Agostino Cortesi"
+authors:
+  - Luca Negrini
+  - Sofia Presotto
+  - Pietro Ferrara
+  - Enea Zaffanella
+  - Agostino Cortesi
 confpage: "https://2024.splashcon.org/details/nsad-2024-papers/2/Stability-an-Abstract-Domain-for-the-Trend-of-Variation-of-Numerical-Variables"
 relatedtalk: "2024-10-22-nsad-stability.md"
 relatedtalktitle: "Talk @ NSAD 2024"

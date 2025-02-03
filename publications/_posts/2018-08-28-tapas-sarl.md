@@ -8,8 +8,11 @@ tags:
   - static-analysis
 venue: "The Ninth Workshop on Tools for Automatic Program Analysis (TAPAS 2018)"
 location: "Freiburg im Breisgau, Germany"
-when: "August 28, 2018, 4:00 PM - 4:30 PM CEST"
-authors: "Luca Negrini, Pietro Ferrara"
+when: "August 28, 2018"
+pubdate: "2018/08/28"
+authors:
+  - Luca Negrini
+  - Pietro Ferrara
 relatedtalk: "2018-08-28-tapas-sarl.md"
 relatedtalktitle: "Talk @ TAPAS 2018"
 manuscript: "TAPAS18.pdf"

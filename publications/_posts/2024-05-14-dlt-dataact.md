@@ -8,7 +8,12 @@ tags:
 venue: "6th Distributed Ledger Technologies Workshop (DLT2024)"
 location: "Turin, Italy"
 when: "May 14-15, 2024"
-authors: "Luca Olivieri, Luca Pasetto, Luca Negrini, Pietro Ferrara"
+pubdate: "2024/05/14"
+authors:
+  - Luca Olivieri
+  - Luca Pasetto
+  - Luca Negrini
+  - Pietro Ferrara
 manuscript: "DLT24.pdf"
 confpage: "https://dlt2024.di.unito.it/"
 publishername: "CEUR"

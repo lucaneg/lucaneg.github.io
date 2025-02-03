@@ -7,7 +7,16 @@ tags:
   - programming-languages
 venue: "IEEE Access"
 when: "November 13, 2024"
-authors: "Luca Olivieri, Vincenzo Arceri, Badaruddin Chachar, Luca Negrini, Fabio Tagliaferro, Fausto Spoto, Pietro Ferrara, Agostino Cortesi"
+pubdate: "2024/11/11"
+authors:
+  - Luca Olivieri
+  - Vincenzo Arceri
+  - Badaruddin Chachar
+  - Luca Negrini
+  - Fabio Tagliaferro
+  - Fausto Spoto
+  - Pietro Ferrara
+  - Agostino Cortesi
 manuscript: "IEEEA24-2.pdf"
 publishername: "IEEE"
 publisherpage: "https://ieeexplore.ieee.org/document/10749761"

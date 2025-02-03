@@ -9,7 +9,10 @@ tags:
 venue: "12th Working Conference on Verified Software: Theories, Tools, and Experiments (VSTTE 2020)"
 location: "Online conference"
 when: "July 20, 2020"
-authors: "Pietro Ferrara, Luca Negrini"
+pubdate: "2020/12/06"
+authors:
+  - Pietro Ferrara
+  - Luca Negrini
 manuscript: "VSTTE20.pdf"
 relatedtalk: "2020-07-20-vstte-sarl.md"
 relatedtalktitle: "Talk @ VSTTE 2020"

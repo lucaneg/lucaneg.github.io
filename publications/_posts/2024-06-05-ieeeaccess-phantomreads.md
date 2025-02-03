@@ -8,7 +8,14 @@ tags:
   - abstract-interpretation
 venue: "IEEE Access, Volume 12"
 when: "June 5, 2024"
-authors: "Luca Olivieri, Luca Negrini, Vincenzo Arceri, Badaruddin Chachar, Pietro Ferrara, Agostino Cortesi"
+pubdate: "2024/06/05"
+authors:
+  - Luca Olivieri
+  - Luca Negrini
+  - Vincenzo Arceri
+  - Badaruddin Chachar
+  - Pietro Ferrara
+  - Agostino Cortesi
 projects: lisa
 manuscript: "IEEEA24.pdf"
 publishername: "IEEE"

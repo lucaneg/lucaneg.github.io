@@ -8,7 +8,13 @@ tags:
   - abstract-interpretation 
 venue: "Distributed Ledger Technologies: Research and Practice"
 when: "January 11, 2024"
-authors: "Luca Olivieri, Luca Negrini, Vincenzo Arceri, Thomas Jensen, Fausto Spoto"
+pubdate: "2024/01/29"
+authors:
+  - Luca Olivieri
+  - Luca Negrini
+  - Vincenzo Arceri
+  - Thomas Jensen
+  - Fausto Spoto
 projects: lisa
 manuscript: "DLTRP24.pdf"
 publishername: "ACM"

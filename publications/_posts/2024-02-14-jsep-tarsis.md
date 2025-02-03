@@ -8,7 +8,12 @@ tags:
   - abstract-interpretation
 venue: "Journal of Software: Evolution and Processes"
 when: "February 14, 2024"
-authors: "Luca Negrini, Vincenzo Arceri, Agostino Cortesi, Pietro Ferrara"
+pubdate: "2024/02/14"
+authors:
+  - Luca Negrini
+  - Vincenzo Arceri
+  - Agostino Cortesi
+  - Pietro Ferrara
 projects: tarsis
 manuscript: "JSEP24.pdf"
 publishername: "Wiley"

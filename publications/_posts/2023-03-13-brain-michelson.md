@@ -9,7 +9,12 @@ tags:
 venue: "2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops) (BRAIN 2023)"
 location: "Atlanta, GA, USA"
 when: "March 13, 2023"
-authors: "Luca Olivieri, Thomas Jensen, Luca Negrini, Fausto Spoto"
+pubdate: "2023/06/21"
+authors:
+  - Luca Olivieri
+  - Thomas Jensen
+  - Luca Negrini
+  - Fausto Spoto
 projects: lisa
 manuscript: "BRAIN23.pdf"
 confpage: "https://sites.google.com/view/brain-2023/workshop-program"

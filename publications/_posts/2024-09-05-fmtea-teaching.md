@@ -9,7 +9,13 @@ tags:
 venue: "Formal Methods Teaching (FMTea 2024)"
 location: "Milan, Italy"
 when: "September 10, 2024"
-authors: "Luca Negrini, Vincenzo Arceri, Luca Olivieri, Agostino Cortesi, Pietro Ferrara"
+pubdate: "2024/09/05"
+authors:
+  - Luca Negrini
+  - Vincenzo Arceri
+  - Luca Olivieri
+  - Agostino Cortesi
+  - Pietro Ferrara
 projects: lisa
 manuscript: "FMTEA24.pdf"
 confpage: "https://fmtea.github.io/"

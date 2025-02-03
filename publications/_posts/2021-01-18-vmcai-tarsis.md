@@ -9,7 +9,12 @@ tags:
 venue: "22nd International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2021)"
 location: "Online conference"
 when: "January 17-19, 2021"
-authors: "Luca Negrini, Vincenzo Arceri, Pietro Ferrara, Agostino Cortesi"
+pubdate: "2021/01/12"
+authors:
+  - Luca Negrini
+  - Vincenzo Arceri
+  - Pietro Ferrara
+  - Agostino Cortesi
 projects: tarsis
 manuscript: "VMCAI21.pdf"
 relatedtalk: "2021-01-18-vmcai-tarsis.md"

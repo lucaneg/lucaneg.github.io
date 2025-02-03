@@ -69,7 +69,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 {% for post in site.categories.publications limit: 2 %}
 	<li>
 		<span class="fa-li"><i class="fas fa-book-open"></i></span>
-		{{ post.authors }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
+		{{ post.authors | join: ', ' }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
 		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
 		<venue>{{ post.venue }}</venue><br/>
 		<small>{{ post.kind }} - {{ post.when }}
