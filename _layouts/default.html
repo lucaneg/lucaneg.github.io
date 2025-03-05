@@ -14,7 +14,8 @@
 		{% endfor %}
 		<meta name="citation_publication_date" content="{{ page.pubdate }}">
 		<meta name="citation_journal_title" content="{{ page.venue }}">
-		<meta name="citation_pdf_url" content="{{ site.baseurl }}/papers/{{ page.manuscript }}">
+		{% capture full_url %}{{ site.baseurl }}/papers/{{ page.manuscript }}{% endcapture %}
+		<meta name="citation_pdf_url" content="{{ full_url | absolute_url }}">
 		{% endif %}
 
 		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
