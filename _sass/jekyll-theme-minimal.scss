@@ -326,28 +326,30 @@ html {
 
 .links {    
     height: fit-content;
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
     margin: 10px auto;
-}
 
-.links {
+    @media print, screen and (max-width: $medium-screen-size) {
+        width: 100%;
+    }
+
     a:link, a:visited, a:hover, a:active    {
         color: $social-icons-color;
     }
     
     a {
-        flex: 0 0 15%;
+        flex: 0 0 17%;
         margin: 5px 0;
     }
 }
 
 .big-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .head-menu-wrapper {
