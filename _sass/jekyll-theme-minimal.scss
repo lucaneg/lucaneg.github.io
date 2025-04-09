@@ -1,35 +1,34 @@
 @import "fonts";
 /*@import "rouge-github";*/
 
-$palette-light: #364156;
-$palette-medium: #212D40;
-$palette-dark: #11151C;
+$palette-medium: #2C2C2C;
+$palette-dark: #232323;
 
-$palette-medium-variant: #B8B8D1;
+$palette-heading-text: #F8F8F8;
+$palette-normal-text: #F8F8F8;
+$palette-highlight-text: #209FDF;
+$palette-accent-color: #F5961A;
 
-$palette-heading-text: #5688C7;
-$palette-normal-text: #EEF0F2;
-$palette-highlight-text: #FFC145;
-
-$body-color: $palette-medium;
+$body-color: $palette-dark;
+$sections-color: $palette-medium;
 
 $text-color: $palette-normal-text;
 $link-color: $palette-highlight-text;
 $heading-color: $palette-heading-text;
 $social-icons-color: $palette-highlight-text;
 
-$highlight-color: #5497A7;
-$hover-color: #9B2915;
+$highlight-color: $palette-highlight-text;
+$hover-color: $palette-accent-color;
 
 $separator-color: $palette-dark;
 $border-color: $palette-dark;
 
 $navigation-bar-color: $palette-heading-text;
 
-$topic-color: #5497A7;
+$topic-color: $palette-accent-color;
 
 $code-color: $palette-normal-text;
-$code-background-color: $palette-medium-variant;
+$code-background-color: $palette-medium;
 
 $small-screen-size: 720px;
 $medium-screen-size: 1130px;
@@ -42,7 +41,7 @@ $medium-screen-size: 1130px;
 
 body {
     background-color: $body-color;
-    padding: 50px 50px;
+    padding: 70px 50px;
     font: 1rem/1.5 montserrat, sans-serif;
     color: $text-color;
     
@@ -142,6 +141,8 @@ kbd {
 }
 
 header {
+    background-color: $sections-color;
+    border-radius: 15px;
     width: 300px;
     float: left;
     position: fixed;
@@ -150,12 +151,14 @@ header {
     -webkit-font-smoothing: subpixel-antialiased;
     
     @media print, screen and (max-width: $medium-screen-size) {
+        float: none;
+        position: static;
+        width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin: 0 auto;
-        width: 1300px;
     }
     
     @media (max-width: $small-screen-size) {
@@ -169,9 +172,21 @@ strong {
 }
 
 section {
+    background-color: $sections-color;
+    border-radius: 15px;
+    padding: 10px 20px;
     width: calc(100% - 360px);
     float: right;
-    padding-bottom: 50px;
+
+    @media print, screen and (max-width: $medium-screen-size) {
+        float: none;
+        position: static;
+        width: auto;
+        border: 1px solid $separator-color;
+        border-width: 1px 0;
+        padding: 10px 20px;
+        margin: 0 0 20px;
+    }
 }
 
 small {
@@ -191,6 +206,12 @@ footer {
     position: fixed;
     bottom: 50px;
     -webkit-font-smoothing: subpixel-antialiased;
+
+    @media print, screen and (max-width: $medium-screen-size) {
+        float: none;
+        position: static;
+        width: auto;
+    }
 }
 
 footer > p{
@@ -199,23 +220,9 @@ footer > p{
 
 
 @media print, screen and (max-width: $medium-screen-size) {
-
     div.wrapper {
         width: auto;
         margin: 0;
-    }
-
-    header, section, footer {
-        float: none;
-        position: static;
-        width: auto;
-    }
-
-    section {
-        border: 1px solid $separator-color;
-        border-width: 1px 0;
-        padding: 20px 0;
-        margin: 0 0 20px;
     }
 }
 
@@ -299,6 +306,10 @@ html {
     margin: 0 !important;
 }
 
+.fas {
+    color: $social-icons-color;
+}
+
 .backlink {
     display: none;
     margin-bottom: 10px;
@@ -340,12 +351,13 @@ html {
 }
 
 .head-menu-wrapper {
+    background-color: $sections-color;
+    border-bottom: 2px solid $highlight-color;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: $body-color;
 
     @media (max-width: $small-screen-size) {
         display: none;
@@ -444,7 +456,7 @@ div.highlight > button:focus {
     border: 1px $topic-color solid;
     border-radius: 5px;
     padding: 0px 5px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: $topic-color !important;
 }
 
@@ -504,7 +516,7 @@ div.divtable td:first-child {
 }
 
 .project-box, .project-box:link, .project-box:visited, .project-box:active, .project-box:hover {
-    border: 1px $border-color solid;
+    border: 2px $border-color solid;
     border-radius: 5px;
     padding: 5px 10px;
     position: relative;
@@ -526,7 +538,7 @@ div.divtable td:first-child {
 }
 
 .project-item {
-    border-bottom: 1px $separator-color solid;
+    border-bottom: 2px $separator-color solid;
     margin: 20px 0;
     padding: 10px 0;
 }
