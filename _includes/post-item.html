@@ -1,0 +1,22 @@
+{% assign icon_class = include.icon | default: "fas fa-book-open" %}
+
+<li>
+	<span class="fa-li"><i class="{{ icon_class }}"></i></span>
+	<a href="{{ include.post.url }}">{{ include.post.title }}</a><br/>
+	{% if include.post.authors %}
+		<venue>By {{ include.post.authors | join: ', ' }}</venue><br/>
+	{% endif %}
+	<venue>{{ include.post.venue }}</venue><br/>
+	<a class="topic">{{ include.post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
+	<small>{{ include.post.kind }} - {{ include.post.when }}
+	{% if include.post.location %}
+		- {{ include.post.location }}
+	{% endif %}
+	{% if include.post.manuscript %}
+		• <a href="{{ site.baseurl }}/papers/{{ include.post.manuscript }}"><i class="fas fa-file-pdf"></i> PDF available</a>
+	{% endif %}
+	{% if include.post.presentation %}
+		• <a href="{{ site.baseurl }}/papers/{{ include.post.presentation }}"><i class="fas fa-file-powerpoint"></i> Slides available</a>
+	{% endif %}
+	</small>
+</li>

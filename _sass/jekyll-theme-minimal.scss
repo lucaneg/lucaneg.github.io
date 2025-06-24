@@ -159,6 +159,9 @@ header {
         align-items: center;
         text-align: center;
         margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     
     @media (max-width: $small-screen-size) {
@@ -231,10 +234,6 @@ footer > p{
         word-wrap: break-word;
     }
 
-    header {
-        padding: 0;
-    }
-
     header ul, header p.view {
         position: static;
     }
@@ -282,6 +281,7 @@ html {
     }
     
     @media (max-width: $small-screen-size) {
+        display: none;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -374,28 +374,6 @@ html {
     @media print, screen and (max-width: $medium-screen-size) {
         width: 100%;
     }
-}   
-
-.head-menu-title, .head-menu-title:visited, .head-menu-title:link {
-    text-transform: uppercase;
-    font-size: 1.2em;
-    height: inherit;
-    line-height: 50px;
-    padding-top: 5px;
-    width: 300px;
-    text-align: center;
-    float: left;
-    color: $navigation-bar-color;
-    margin-left: 12px;
-    
-    @media print, screen and (max-width: $medium-screen-size) {
-        display: none;
-        padding: 0;
-    }
-}
-
-.head-menu-title:hover, .head-menu-title:active {
-    color: $highlight-color;
 }
 
 .head-menu {
@@ -469,6 +447,14 @@ div.highlight > button:focus {
 
 venue {
     font-size: 0.9rem;
+}
+
+h3#abstract {
+    color: $topic-color !important;
+}
+
+h1#item-title {
+    color: $highlight-color !important;
 }
 
 div.divtable table {

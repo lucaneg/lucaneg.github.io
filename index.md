@@ -67,23 +67,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 
 <ul class="fa-ul">
 {% for post in site.categories.publications limit: 2 %}
-	<li>
-		<span class="fa-li"><i class="fas fa-book-open"></i></span>
-		{{ post.authors | join: ', ' }}. <a href="{{ post.url }}">{{ post.title }}</a><br/>
-		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
-		<venue>{{ post.venue }}</venue><br/>
-		<small>{{ post.kind }} - {{ post.when }}
-		{% if post.location %}
-			- {{ post.location }}
-		{% endif %}
-		{% if post.manuscript %}
-			• <i class="fas fa-file-pdf"></i> PDF available
-		{% endif %}
-		{% if post.presentation %}
-			• <i class="fas fa-file-powerpoint"></i> Slides available
-		{% endif %}
-		</small>
-	</li>
+	{% include post-item.html post=post %}
 {% endfor %}
 </ul>
 
@@ -93,23 +77,7 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 
 <ul class="fa-ul">
 {% for post in site.categories.talks limit: 2 %}
-	<li>
-		<span class="fa-li"><i class="fas fa-calendar-alt"></i></span>
-		<a href="{{ post.url }}">{{ post.title }}</a><br/>
-		<a class="topic">{{ post.tags | join: '</a>&nbsp;&nbsp;<a class="topic">' }}</a><br/>
-		<venue>{{ post.venue }}</venue><br/>
-		<small>{{ post.kind }} - {{ post.when }}
-		{% if post.location %}
-			- {{ post.location }}
-		{% endif %}
-		{% if post.manuscript %}
-			• <i class="fas fa-file-pdf"></i> PDF available
-		{% endif %}
-		{% if post.presentation %}
-			• <i class="fas fa-file-powerpoint"></i> Slides available
-		{% endif %}
-		</small>
-	</li>
+	{% include post-item.html post=post icon="fas fa-calendar-alt" %}
 {% endfor %}
 </ul>
 
