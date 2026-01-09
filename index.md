@@ -10,6 +10,11 @@ I started studying computer science in high school, continuing with both Bachelo
 
 In October 2019, I joined the Ca' Foscari University of Venice as a PhD student in Computer Science, focusing on multi-language static analysis, and graduating in January 2023. I have now joined Ca' Foscary and the [Software and System Verification (SSV)](https://ssv.dais.unive.it/), first as a Research Fellow and now as an Assistant Professor (non-tenure).
 
+<a href="https://absint.zulipchat.com" target="_blank" style="text-decoration: none;">
+  <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/zulip.png" alt="Zulip Chat" style="height:20px; vertical-align:middle; border:0;">
+  <span style="vertical-align:middle;">Join the Abstract Interpretation Zulip chat!</span>
+</a>
+
 <div class="row">
 	<div class="column">
 		<h3>Interests</h3>
@@ -38,9 +43,9 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 {% assign unpinned_prjs = site.pages | where: "project", true | where: "pinned", false %}
 {% assign projectlist = pinned_prjs | concat: unpinned_prjs %}
 {% if pinned_prjs.size > 4 %}
-	{% assign limit = pinned_prjs.size %}
+{% assign limit = pinned_prjs.size %}
 {% else %}
-	{% assign limit = 4 %}
+{% assign limit = 4 %}
 {% endif %}
 
 <div class="project-box-wrapper">
@@ -58,7 +63,6 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 {% endfor %}
 </div>
 <p/>
-
 
 {% assign prj_count = pinned_prjs.size | plus: unpinned_prjs.size %}
 [All projects ({{ prj_count }}) >>]({{ site.baseurl }}/projects/)
@@ -80,7 +84,6 @@ In October 2019, I joined the Ca' Foscari University of Venice as a PhD student 
 	{% include post-item.html post=post icon="fas fa-calendar-alt" %}
 {% endfor %}
 </ul>
-
 
 [All talks ({{ site.categories.talks.size }}) >>]({{ site.baseurl }}/talks/)
 
