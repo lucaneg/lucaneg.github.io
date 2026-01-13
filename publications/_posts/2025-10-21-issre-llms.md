@@ -19,6 +19,7 @@ authors:
   - Antonio Emanuele Cinà
   - Pietro Ferrara
 manuscript: "ISSRE25.pdf"
+projects: lisa
 confpage: "https://issre.github.io/2025/index.html"
 publishername: "IEEE Xplore"
 publisherpage: "https://ieeexplore.ieee.org/document/11229563/"

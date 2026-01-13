@@ -14,6 +14,7 @@ authors:
   - Luca Olivieri
   - Luca Negrini
 manuscript: "BRAINS25.pdf"
+projects: lisa
 confpage: "https://brains.dnac.org/2025/"
 publishername: "IEEE Xplore"
 publisherpage: "https://ieeexplore.ieee.org/document/11302935"
