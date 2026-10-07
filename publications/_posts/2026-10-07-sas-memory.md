@@ -16,7 +16,7 @@ authors:
   - Luca Olivieri
   - Pietro Ferrara
 projects: lisa
-manuscript: "SAS2026.pdf"
+manuscript: "SAS26.pdf"
 confpage: "https://conf.researchr.org/details/splash-issta-2026/sas-2026-papers/11/A-Modular-Framework-for-Stack-Heap-and-Value-Abstractions"
 publishername: "Springer"
 publisherpage: "https://link.springer.com/chapter/10.1007/978-3-032-40374-2_6"
